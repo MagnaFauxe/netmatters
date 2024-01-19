@@ -1,0 +1,126 @@
+// Config ---------------------------------------------------------------------
+
+// Font Stacks --------------------------------------------
+
+// Font Weights -------------------------------------------
+
+// Descriptive Base Colors --------------------------------
+
+$white   : #fff;
+$black   : #000;
+$grey    : #666;
+
+$tuna           : #333645;
+$hoki           : #67809f;
+$havelock-blue  : #4183D7;
+$shamrock       : #2ECC71;
+$valencia       : #D64541;
+$wisteria       : #926FB1;
+$radical-red    : #f62459;
+$punch          : #ce4125;
+
+$dodger-blue    : #4387F6;
+$alto           : #dddddd;
+$manatee        : #999aa2;
+$charade        : #272936;
+$jade           : #00b67b;
+$ebony-clay     : #212330;
+$web-orange     : #FFA500;
+
+$chambray       : #3b5998;
+$deep-cerulean  : #0077b5;
+$cerulean       : #00aced;
+$cerise         : #d93175;
+
+
+// Color Purpose ------------------------------------------
+
+$text-color-dark    : $tuna;
+$text-color-light   : $white;
+$body-color         : $white;
+
+$bespoke-color      : $hoki;
+$support-color      : $havelock-blue;
+$marketing-color    : $shamrock;
+$telecom-color      : $valencia;
+$webdesign-color    : $wisteria;
+$security-color     : $radical-red;
+$developer-color    : $punch;
+
+$button-blue        : $dodger-blue;
+$button-grey        : $manatee;
+$button-dark        : $charade;
+$button-green       : $jade;
+
+$banner-lgt-grey    : $alto;
+$banner-grey        : $tuna;
+$banner-drk-grey    : $ebony-clay;
+
+$star-yellow        : $web-orange;
+
+// Social Media colors ----
+//Note: When unhovered, Social Media buttons should be $socmed-color. When hovered, they should be their respective color.
+
+$socmed-color       : $ebony-clay;
+$fbook-blue         : $chambray;
+$linkedin-blue      : $deep-cerulean;
+$twttr-blue         : $cerulean;
+$instagram-pink     : $cerise;
+
+// Color Palette Modifiers --------------------------------
+
+@function modify-color($color, $modifier) {
+    @if $modifier == darken {
+        @return darken($color, 10%);
+    } @else if $modifier == lighten {
+        @return lighten($color, 10%);
+    } @else if $modifier == saturate {
+        @return saturate($color, 10%);
+    } @else if $modifier == desaturate {
+        @return desaturate($color, 10%);
+    } @else {
+        @return $color;
+    }
+}
+// Example: Using "background-color: modify-color($marketing-color, darken);" will darken the marketing color.
+
+// Text ---------------------------------------------------
+
+$base__font-size : 1rem;
+$base__line      : 24px;
+$letter-space    : .4px;
+
+// Border radius ------------------------------------------
+
+$brd-default: .4em;
+$brd-round: 50%;
+
+// Transitions --------------------------------------------
+
+$trns-duration: .5s;
+
+// Path to img --------------------------------------------
+
+$path--rel    : "../img";
+
+// Grid ---------------------------------------------------
+
+$g-col-count  : 24;
+
+// Breakpoints --------------------------------------------
+
+$brk-sm : 1px;
+$brk-md : 768px;
+$brk-lg : 1100px;
+
+// Tab Hover Effect ---------------------------------------
+
+$tab-hover-effect: translateY(10px) !default;
+
+// Tab Colors ---------------------------------------------
+
+$tab-colors: (
+    bespokesoftware: ($body, )
+
+
+)

@@ -1,0 +1,70 @@
+// Mixins ---------------------------------------------------------------------
+
+
+
+// Tab Hover Effect ---------------------------------------
+
+@mixin tab-hover-effect($transform, $tab-color, $icon-color, $button-color, $text-color, $button-text-color) {
+  transition: $transform 0.5s;
+  transform: $transform;
+  background-color: $body-color;
+  color: $text-color;
+
+  & .icon {
+    color: $icon-color;
+  }
+
+  & .button {
+    background-color: $button-color;
+    color: $button-text-color;
+  }
+
+  &:hover {
+    transition: $transform 0.5s, background-color 0.5s, color 0.5s;
+
+    background-color: $tab-color;
+    color: $body-color;
+
+    & .icon {
+      color: $body-color;
+    }
+
+    & .button {
+      background-color: $body-color;
+      color: $tab-color;
+    }
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+// Media Queries ------------------------------------------
+
+@import 'config';
+
+@mixin mq($break) {
+    @if $break == "small" {
+      @media (min-width: $brk-sm) and (max-width: $brk-md) {
+        @content;
+      }
+    }
+    @else if $break == "medium" {
+      @media (min-width: $brk-md/*+ 1*/) { // removed "+ 1" due to issue, add back if it makes more issues
+        @content;
+      }
+    }
+    @else if $break == "large" {
+      @media (min-width: $br-lg) {
+        @content;
+      }
+    }
+}

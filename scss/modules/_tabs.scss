@@ -1,0 +1,29 @@
+// Tabs -----------------------------------------
+
+.bespoke-software-tab {
+    @include tab-hover-effect(translateY(5px), $bespoke-color, $bespoke-color, $body-color, $text-color-dark, $bespoke-color)
+}
+
+.it-support-tab {
+    @include tab-hover-effect(translateY(5px), $support-color, $support-color, $body-color, $text-color-dark, $support-color)
+}
+
+.digital-marketing-tab {
+    @include tab-hover-effect(translateY(5px), $marketing-color, $marketing-color, $body-color, $text-color-dark, $support-color)
+}
+
+.telecoms-services-tab {
+    @include tab-hover-effect(translateY(5px), $telecom-color, $telecom-color, $body-color, $text-color-dark, $telecom-color)
+}
+
+.webdesign-tab {
+    @include tab-hover-effect(translateY(5px), $webdesign-color, $webdesign-color, $body-color, $text-color-dark, $telecom-color)
+}
+
+.cyber-security-tab {
+    @include tab-hover-effect(translateY(5px), $security-color, $security-color, $body-color, $text-color-dark, $security-color)
+}
+
+.developer-training-tab {
+    @include tab-hover-effect(translateY(5px), $developer-color, $developer-color, $body-color, $text-color-dark, $developer-color)
+}
