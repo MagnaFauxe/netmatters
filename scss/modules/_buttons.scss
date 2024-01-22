@@ -1,1 +1,6 @@
-// Index ----------------------------------------
+// Buttons --------------------------------------
+
+.btn {
+    @include bg-colors($havelock-blue, $jade, $ebony-clay, $manatee);
+    color: $white;
+}
