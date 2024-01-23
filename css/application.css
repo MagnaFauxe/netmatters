@@ -1,0 +1,239 @@
+.bespoke-software-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.bespoke-software-tab .icon {
+  color: #67809f;
+}
+
+.bespoke-software-tab .button {
+  background-color: #fff;
+  color: #67809f;
+}
+
+.bespoke-software-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #67809f;
+  color: #fff;
+}
+
+.bespoke-software-tab:hover .icon {
+  color: #fff;
+}
+
+.bespoke-software-tab:hover .button {
+  background-color: #fff;
+  color: #67809f;
+}
+
+.it-support-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.it-support-tab .icon {
+  color: #4183D7;
+}
+
+.it-support-tab .button {
+  background-color: #fff;
+  color: #4183D7;
+}
+
+.it-support-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #4183D7;
+  color: #fff;
+}
+
+.it-support-tab:hover .icon {
+  color: #fff;
+}
+
+.it-support-tab:hover .button {
+  background-color: #fff;
+  color: #4183D7;
+}
+
+.digital-marketing-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.digital-marketing-tab .icon {
+  color: #2ECC71;
+}
+
+.digital-marketing-tab .button {
+  background-color: #fff;
+  color: #4183D7;
+}
+
+.digital-marketing-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #2ECC71;
+  color: #fff;
+}
+
+.digital-marketing-tab:hover .icon {
+  color: #fff;
+}
+
+.digital-marketing-tab:hover .button {
+  background-color: #fff;
+  color: #2ECC71;
+}
+
+.telecoms-services-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.telecoms-services-tab .icon {
+  color: #D64541;
+}
+
+.telecoms-services-tab .button {
+  background-color: #fff;
+  color: #D64541;
+}
+
+.telecoms-services-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #D64541;
+  color: #fff;
+}
+
+.telecoms-services-tab:hover .icon {
+  color: #fff;
+}
+
+.telecoms-services-tab:hover .button {
+  background-color: #fff;
+  color: #D64541;
+}
+
+.webdesign-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.webdesign-tab .icon {
+  color: #926FB1;
+}
+
+.webdesign-tab .button {
+  background-color: #fff;
+  color: #D64541;
+}
+
+.webdesign-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #926FB1;
+  color: #fff;
+}
+
+.webdesign-tab:hover .icon {
+  color: #fff;
+}
+
+.webdesign-tab:hover .button {
+  background-color: #fff;
+  color: #926FB1;
+}
+
+.cyber-security-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.cyber-security-tab .icon {
+  color: #f62459;
+}
+
+.cyber-security-tab .button {
+  background-color: #fff;
+  color: #f62459;
+}
+
+.cyber-security-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #f62459;
+  color: #fff;
+}
+
+.cyber-security-tab:hover .icon {
+  color: #fff;
+}
+
+.cyber-security-tab:hover .button {
+  background-color: #fff;
+  color: #f62459;
+}
+
+.developer-training-tab {
+  transition: translateY(5px) 0.5s;
+  transform: translateY(5px);
+  background-color: #fff;
+  color: #333645;
+}
+
+.developer-training-tab .icon {
+  color: #ce4125;
+}
+
+.developer-training-tab .button {
+  background-color: #fff;
+  color: #ce4125;
+}
+
+.developer-training-tab:hover {
+  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  background-color: #ce4125;
+  color: #fff;
+}
+
+.developer-training-tab:hover .icon {
+  color: #fff;
+}
+
+.developer-training-tab:hover .button {
+  background-color: #fff;
+  color: #ce4125;
+}
+
+.banner {
+  color: #000;
+  font-size: 1.5rem;
+  background-color: #fff;
+  margin-top: -1rem;
+}
+
+h1 {
+  padding-bottom: 8px;
+}
+
+h2 {
+  background-color: #333645;
+  color: #fff;
+  text-align: center;
+  margin-left: -1rem;
+  margin-right: -0.5rem;
+  margin-top: 0rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.6rem;
+}
