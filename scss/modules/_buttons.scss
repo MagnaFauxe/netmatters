@@ -4,3 +4,51 @@
     //@include bg-colors($havelock-blue, $jade, $ebony-clay, $manatee);
    // color: $white;
 //}
+
+.button-facebook {
+    background-color: $fbook-blue ;
+    color: $white;
+    font-size: 1.6rem;
+    width: 70px;
+    height: 55px;
+    border: none;
+    margin: 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.button-linkedin {
+    background-color: $linkedin-blue ;
+    color: $white;
+    font-size: 1.6rem;
+    width: 70px;
+    height: 55px;
+    border: none;
+    margin: 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.button-twitter {
+    background-color: $twttr-blue ;
+    color: $white;
+    font-size: 1.6rem;
+    width: 70px;
+    height: 55px;
+    border: none;
+    margin: 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.button-instagram {
+    background-color: $instagram-pink ;
+    color: $white;
+    font-size: 1.6rem;
+    width: 70px;
+    height: 55px;
+    border: none;
+    margin: 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}

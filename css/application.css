@@ -1,3 +1,51 @@
+.button-facebook {
+  background-color: #3b5998;
+  color: #fff;
+  font-size: 1.6rem;
+  width: 70px;
+  height: 55px;
+  border: none;
+  margin: 10px;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
+.button-linkedin {
+  background-color: #0077b5;
+  color: #fff;
+  font-size: 1.6rem;
+  width: 70px;
+  height: 55px;
+  border: none;
+  margin: 10px;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
+.button-twitter {
+  background-color: #00aced;
+  color: #fff;
+  font-size: 1.6rem;
+  width: 70px;
+  height: 55px;
+  border: none;
+  margin: 10px;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
+.button-instagram {
+  background-color: #d93175;
+  color: #fff;
+  font-size: 1.6rem;
+  width: 70px;
+  height: 55px;
+  border: none;
+  margin: 10px;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
 .bespoke-software-tab {
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
@@ -217,13 +265,57 @@
 
 .banner {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #fff;
   margin-top: -1rem;
 }
 
 h1 {
-  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  margin-right: 10px;
+  padding: 18px;
+}
+
+.button-support {
+  background-color: #4387F6;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 16px 30px;
+  border: none;
+  margin: 10px;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+.button-contact {
+  background-color: #999aa2;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 16px 30px;
+  border: none;
+  margin: 10px;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+.burger-menu {
+  background-color: #212330;
+  padding: 1px 13px 6px 13px;
+  border-radius: 4px;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 h2 {
@@ -235,5 +327,5 @@ h2 {
   margin-top: 0rem;
   padding-left: 1rem;
   padding-top: 2rem;
-  padding-bottom: 1.6rem;
+  padding-bottom: 2.5rem;
 }
