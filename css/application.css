@@ -353,3 +353,59 @@ footer {
   text-align: center;
   line-height: 0px;
 }
+
+.button-bespoke-software-banner {
+  margin-left: 45px;
+  margin-right: 60px;
+  background-color: #67809f;
+  height: 40px;
+  width: 40px;
+}
+
+.button-it-support-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #4183D7;
+  height: 40px;
+  width: 40px;
+}
+
+.button-digital-marketing-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #2ECC71;
+  height: 40px;
+  width: 40px;
+}
+
+.button-telecoms-services-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #D64541;
+  height: 40px;
+  width: 40px;
+}
+
+.button-web-design-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #926FB1;
+  height: 40px;
+  width: 40px;
+}
+
+.button-cyber-security-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #f62459;
+  height: 40px;
+  width: 40px;
+}
+
+.button-developer-course-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #ce4125;
+  height: 40px;
+  width: 40px;
+}
