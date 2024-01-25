@@ -52,3 +52,84 @@
     border-radius: 0%;
     cursor: pointer;
 }
+
+.button-support {
+    background-color: $button-blue;
+    color: $white;
+    font-size: 1.6rem;
+    padding: 16px 30px;
+    border: none;
+    margin: 10px;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.button-contact {
+    background-color: $button-grey ;
+    color: $white;
+    font-size: 1.6rem;
+    padding: 16px 30px;
+    border: none;
+    margin: 10px;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+
+// Banner Drop Down Buttons
+
+.button-bespoke-software-banner {
+    margin-left: 45px;
+    margin-right: 60px;
+    background-color: $bespoke-color;
+    height: 40px;
+    width: 40px;
+}
+
+.button-it-support-banner {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: $support-color;
+    height: 40px;
+    width: 40px;
+}
+
+.button-digital-marketing-banner {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: $marketing-color;
+    height: 40px;
+    width: 40px;
+}
+
+.button-telecoms-services-banner {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: $telecom-color;
+    height: 40px;
+    width: 40px;
+}
+
+.button-web-design-banner {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: $webdesign-color;
+    height: 40px;
+    width: 40px;
+}
+
+.button-cyber-security-banner {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: $security-color;
+    height: 40px;
+    width: 40px;
+}
+
+.button-developer-course-banner {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: $developer-color;
+    height: 40px;
+    width: 40px;
+}

@@ -46,6 +46,84 @@
   cursor: pointer;
 }
 
+.button-support {
+  background-color: #4387F6;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 16px 30px;
+  border: none;
+  margin: 10px;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+.button-contact {
+  background-color: #999aa2;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 16px 30px;
+  border: none;
+  margin: 10px;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+.button-bespoke-software-banner {
+  margin-left: 45px;
+  margin-right: 60px;
+  background-color: #67809f;
+  height: 40px;
+  width: 40px;
+}
+
+.button-it-support-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #4183D7;
+  height: 40px;
+  width: 40px;
+}
+
+.button-digital-marketing-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #2ECC71;
+  height: 40px;
+  width: 40px;
+}
+
+.button-telecoms-services-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #D64541;
+  height: 40px;
+  width: 40px;
+}
+
+.button-web-design-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #926FB1;
+  height: 40px;
+  width: 40px;
+}
+
+.button-cyber-security-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #f62459;
+  height: 40px;
+  width: 40px;
+}
+
+.button-developer-course-banner {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #ce4125;
+  height: 40px;
+  width: 40px;
+}
+
 .bespoke-software-tab {
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
@@ -263,6 +341,10 @@
   color: #ce4125;
 }
 
+body {
+  margin: 0;
+}
+
 .banner {
   color: #000;
   font-size: 1rem;
@@ -287,28 +369,6 @@ input {
   padding: 18px;
 }
 
-.button-support {
-  background-color: #4387F6;
-  color: #fff;
-  font-size: 1.6rem;
-  padding: 16px 30px;
-  border: none;
-  margin: 10px;
-  border-radius: 4%;
-  cursor: pointer;
-}
-
-.button-contact {
-  background-color: #999aa2;
-  color: #fff;
-  font-size: 1.6rem;
-  padding: 16px 30px;
-  border: none;
-  margin: 10px;
-  border-radius: 4%;
-  cursor: pointer;
-}
-
 .burger-menu {
   background-color: #212330;
   padding: 1px 13px 6px 13px;
@@ -324,14 +384,15 @@ h2 {
   text-align: center;
   margin-left: -1rem;
   margin-right: -0.5rem;
-  margin-top: 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 1rem;
   padding-top: 2rem;
   padding-bottom: 2.5rem;
 }
 
 footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0;
   height: 200px;
@@ -342,7 +403,7 @@ footer {
 }
 
 .bottom-bar {
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0;
   height: 20px;
@@ -354,58 +415,48 @@ footer {
   line-height: 0px;
 }
 
-.button-bespoke-software-banner {
-  margin-left: 45px;
-  margin-right: 60px;
-  background-color: #67809f;
-  height: 40px;
-  width: 40px;
+h3 {
+  height: 600px;
+  width: 100%;
+  background-color: darkred;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 
-.button-it-support-banner {
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: #4183D7;
-  height: 40px;
-  width: 40px;
+.our-services {
+  height: 1000px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #fff;
 }
 
-.button-digital-marketing-banner {
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: #2ECC71;
-  height: 40px;
-  width: 40px;
+.netmatters-introview {
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #333645;
 }
 
-.button-telecoms-services-banner {
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: #D64541;
-  height: 40px;
-  width: 40px;
+.news {
+  height: 800px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #fff;
 }
 
-.button-web-design-banner {
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: #926FB1;
-  height: 40px;
-  width: 40px;
-}
-
-.button-cyber-security-banner {
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: #f62459;
-  height: 40px;
-  width: 40px;
-}
-
-.button-developer-course-banner {
-  margin-left: 60px;
-  margin-right: 60px;
-  background-color: #ce4125;
-  height: 40px;
-  width: 40px;
+.newsletter {
+  height: 300px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #dddddd;
 }

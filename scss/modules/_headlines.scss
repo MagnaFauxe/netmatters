@@ -1,5 +1,8 @@
 // Headlines ------------------------------------
 
+body {
+    margin: 0;
+}
 
 .banner {
     color: $black;
@@ -24,28 +27,6 @@ input {
     padding: 18px;
 }
 
-.button-support {
-    background-color: $button-blue;
-    color: $white;
-    font-size: 1.6rem;
-    padding: 16px 30px;
-    border: none;
-    margin: 10px;
-    border-radius: 4%;
-    cursor: pointer;
-}
-
-.button-contact {
-    background-color: $button-grey ;
-    color: $white;
-    font-size: 1.6rem;
-    padding: 16px 30px;
-    border: none;
-    margin: 10px;
-    border-radius: 4%;
-    cursor: pointer;
-}
-
 .burger-menu {
     background-color: $banner-drk-grey;
     padding: 1px 13px 6px 13px;
@@ -54,20 +35,22 @@ input {
     cursor: pointer;
     margin-left: 10px;
 }
+
 h2 {
     background-color: $banner-grey;
     color: $white;
     text-align: center;
     margin-left: -1rem;
     margin-right: -0.5rem;
-    margin-top: 0rem;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 1rem;
     padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
 
 footer {
-    position: fixed;
+    position:static;
     bottom: 0;
     left: 0;
     height: 200px;
@@ -78,7 +61,7 @@ footer {
 }
 
 .bottom-bar {
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     height: 20px;
@@ -90,60 +73,48 @@ footer {
     line-height: 0px;
 }
 
-// Banner Buttons
-
-.button-bespoke-software-banner {
-    margin-left: 45px;
-    margin-right: 60px;
-    background-color: $bespoke-color;
-    height: 40px;
-    width: 40px;
+h3 {
+    height: 600px;
+    width: 100%;
+    background-color: darkred;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
-.button-it-support-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $support-color;
-    height: 40px;
-    width: 40px;
+.our-services {
+    height: 1000px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: $body-color;
 }
 
-.button-digital-marketing-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $marketing-color;
-    height: 40px;
-    width: 40px;
+.netmatters-introview {
+    height: 600px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: $banner-grey;
 }
 
-.button-telecoms-services-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $telecom-color;
-    height: 40px;
-    width: 40px;
+.news {
+    height: 800px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: $body-color;
 }
 
-.button-web-design-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $webdesign-color;
-    height: 40px;
-    width: 40px;
-}
-
-.button-cyber-security-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $security-color;
-    height: 40px;
-    width: 40px;
-}
-
-.button-developer-course-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $developer-color;
-    height: 40px;
-    width: 40px;
+.newsletter {
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: $banner-lgt-grey;
 }
