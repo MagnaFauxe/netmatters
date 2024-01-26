@@ -133,3 +133,23 @@
     height: 40px;
     width: 40px;
 }
+
+.btn-dark {
+    background-color: $button-dark;
+    color: $button-text-color;
+}
+
+.btn-grey {
+    background-color: $button-grey;
+    color: $button-text-color;
+}
+
+.btn-blue {
+    background-color: $button-blue;
+    color: $button-text-color;
+}
+
+.btn-green {
+    background-color: $button-green;
+    color: $button-text-color;
+}
