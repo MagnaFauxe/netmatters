@@ -145,10 +145,27 @@
 }
 
 .bespoke-software-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.bespoke-software-tab:hover {
+  transform: translateY(-5px);
 }
 
 .bespoke-software-tab .icon {
@@ -176,10 +193,27 @@
 }
 
 .it-support-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.it-support-tab:hover {
+  transform: translateY(-5px);
 }
 
 .it-support-tab .icon {
@@ -207,10 +241,27 @@
 }
 
 .digital-marketing-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.digital-marketing-tab:hover {
+  transform: translateY(-5px);
 }
 
 .digital-marketing-tab .icon {
@@ -238,10 +289,27 @@
 }
 
 .telecoms-services-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.telecoms-services-tab:hover {
+  transform: translateY(-5px);
 }
 
 .telecoms-services-tab .icon {
@@ -269,10 +337,27 @@
 }
 
 .webdesign-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.webdesign-tab:hover {
+  transform: translateY(-5px);
 }
 
 .webdesign-tab .icon {
@@ -300,10 +385,27 @@
 }
 
 .cyber-security-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.cyber-security-tab:hover {
+  transform: translateY(-5px);
 }
 
 .cyber-security-tab .icon {
@@ -331,10 +433,27 @@
 }
 
 .developer-training-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #272936;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);
   background-color: #fff;
   color: #333645;
+}
+
+.developer-training-tab:hover {
+  transform: translateY(-5px);
 }
 
 .developer-training-tab .icon {

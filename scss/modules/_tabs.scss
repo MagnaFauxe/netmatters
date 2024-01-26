@@ -1,29 +1,142 @@
 // Tabs -----------------------------------------
 
+
 .bespoke-software-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $bespoke-color, $bespoke-color, $body-color, $text-color-dark, $bespoke-color)
 }
 
 .it-support-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $support-color, $support-color, $body-color, $text-color-dark, $support-color)
 }
 
 .digital-marketing-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $marketing-color, $marketing-color, $body-color, $text-color-dark, $support-color)
 }
 
 .telecoms-services-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $telecom-color, $telecom-color, $body-color, $text-color-dark, $telecom-color)
 }
 
 .webdesign-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $webdesign-color, $webdesign-color, $body-color, $text-color-dark, $telecom-color)
 }
 
 .cyber-security-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $security-color, $security-color, $body-color, $text-color-dark, $security-color)
 }
 
 .developer-training-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $charade;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateY(-5px);
+    }
     @include tab-hover-effect(translateY(5px), $developer-color, $developer-color, $body-color, $text-color-dark, $developer-color)
 }
