@@ -124,6 +124,26 @@
   width: 40px;
 }
 
+.btn-dark {
+  background-color: #272936;
+  color: #fff;
+}
+
+.btn-grey {
+  background-color: #999aa2;
+  color: #fff;
+}
+
+.btn-blue {
+  background-color: #4387F6;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #00b67b;
+  color: #fff;
+}
+
 .bespoke-software-tab {
   transition: translateY(5px) 0.5s;
   transform: translateY(5px);

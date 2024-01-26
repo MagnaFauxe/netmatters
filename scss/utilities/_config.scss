@@ -47,6 +47,7 @@ $webdesign-color    : $wisteria;
 $security-color     : $radical-red;
 $developer-color    : $punch;
 
+$button-text-color  : $white;
 $button-blue        : $dodger-blue;
 $button-grey        : $manatee;
 $button-dark        : $charade;
@@ -120,14 +121,14 @@ $tab-hover-effect: translateY(10px) !default;
 // Tab Colors ---------------------------------------------
 
 $tab-colors: (
-    bespokesoftware: ($body-color, $bespoke-color, $bespoke-color, $body-color)
-    itsupport: ($body-color, $support-color, $support-color, $body-color)
-    digitalmarketing: ($body-color, $marketing-color, $marketing-color, $body-color)
-    telecomsservices: ($body-color, $telecom-color, $telecom-color, $body-color)
-    webdesign: ($body-color, $webdesign-color, $webdesign-color, $body-color)
-    cybersecurity: ($body-color, $security-color, $security-color, $body-color)
-    developertraining: ($body-color, $developer-color, $developer-color, $body-color)
-)
+    bespokesoftware: ($body-color, $bespoke-color, $bespoke-color, $body-color),
+    itsupport: ($body-color, $support-color, $support-color, $body-color),
+    digitalmarketing: ($body-color, $marketing-color, $marketing-color, $body-color),
+    telecomsservices: ($body-color, $telecom-color, $telecom-color, $body-color),
+    webdesign: ($body-color, $webdesign-color, $webdesign-color, $body-color),
+    cybersecurity: ($body-color, $security-color, $security-color, $body-color),
+    developertraining: ($body-color, $developer-color, $developer-color, $body-color),
+);
 
 // Base Colors --------------------------------------------
 
