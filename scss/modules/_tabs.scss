@@ -1,5 +1,15 @@
 // Tabs -----------------------------------------
 
+.our-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 
 .bespoke-software-tab {
     display: flex;
@@ -7,18 +17,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 350px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 60px 20px 0px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $bespoke-color, $bespoke-color, $body-color, $text-color-dark, $bespoke-color)
+    @include tab-hover-effect(translateY(10px), $bespoke-color, $bespoke-color, $body-color, $text-color-dark, $bespoke-color);
+
+    .bespoke-button {
+        background-color: $bespoke-color;
+        color: $body-color;
+    }
+
+    &:hover .bespoke-button {
+        background-color: $body-color;
+        color: $bespoke-color;
+    }
 }
 
 .it-support-tab {
@@ -27,18 +48,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 350px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 60px 20px 0px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $support-color, $support-color, $body-color, $text-color-dark, $support-color)
+    @include tab-hover-effect(translateY(10px), $support-color, $support-color, $body-color, $text-color-dark, $support-color);
+
+    .support-button {
+        background-color: $support-color;
+        color: $body-color;
+    }
+
+    &:hover .support-button {
+        background-color: $body-color;
+        color: $support-color;
+    }
 }
 
 .digital-marketing-tab {
@@ -47,18 +79,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 350px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 60px 20px 0px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $marketing-color, $marketing-color, $body-color, $text-color-dark, $support-color)
+    @include tab-hover-effect(translateY(10px), $marketing-color, $marketing-color, $body-color, $text-color-dark, $support-color);
+
+    .marketing-button {
+        background-color: $marketing-color;
+        color: $body-color;
+    }
+
+    &:hover .marketing-button {
+        background-color: $body-color;
+        color: $marketing-color;
+    }
 }
 
 .telecoms-services-tab {
@@ -67,18 +110,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 242px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 0px 20px 60px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $telecom-color, $telecom-color, $body-color, $text-color-dark, $telecom-color)
+    @include tab-hover-effect(translateY(10px), $telecom-color, $telecom-color, $body-color, $text-color-dark, $telecom-color);
+
+    .telecoms-button {
+        background-color: $telecom-color;
+        color: $body-color;
+    }
+
+    &:hover .telecoms-button {
+        background-color: $body-color;
+        color: $telecom-color;
+    }
 }
 
 .webdesign-tab {
@@ -87,18 +141,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 242px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 0px 20px 60px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $webdesign-color, $webdesign-color, $body-color, $text-color-dark, $telecom-color)
+    @include tab-hover-effect(translateY(10px), $webdesign-color, $webdesign-color, $body-color, $text-color-dark, $telecom-color);
+
+    .webdesign-button {
+        background-color: $webdesign-color;
+        color: $body-color;
+    }
+
+    &:hover .webdesign-button {
+        background-color: $body-color;
+        color: $webdesign-color;
+    }
 }
 
 .cyber-security-tab {
@@ -107,18 +172,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 242px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 0px 20px 60px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $security-color, $security-color, $body-color, $text-color-dark, $security-color)
+    @include tab-hover-effect(translateY(10px), $security-color, $security-color, $body-color, $text-color-dark, $security-color);
+
+    .cybersecurity-button {
+        background-color: $security-color;
+        color: $body-color;
+    }
+
+    &:hover .cybersecurity-button {
+        background-color: $body-color;
+        color: $security-color;
+    }
 }
 
 .developer-training-tab {
@@ -127,16 +203,27 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $charade;
-    border-radius: 5px;
+    border: 1px solid $light-grey;
+    border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 242px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    margin: 0px 20px 60px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
+        border: none;
     }
-    @include tab-hover-effect(translateY(5px), $developer-color, $developer-color, $body-color, $text-color-dark, $developer-color)
+    @include tab-hover-effect(translateY(10px), $developer-color, $developer-color, $body-color, $text-color-dark, $developer-color);
+
+    .developer-button {
+        background-color: $developer-color;
+        color: $body-color;
+    }
+
+    &:hover .developer-button {
+        background-color: $body-color;
+        color: $developer-color;
+    }
 }

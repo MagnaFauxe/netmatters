@@ -144,28 +144,103 @@
   color: #fff;
 }
 
+.bespoke-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.support-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.marketing-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.telecoms-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.webdesign-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.cybersecurity-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.developer-button {
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.our-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .bespoke-software-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 350px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 60px 20px 0px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .bespoke-software-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .bespoke-software-tab .icon {
@@ -178,7 +253,7 @@
 }
 
 .bespoke-software-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #67809f;
   color: #fff;
 }
@@ -192,28 +267,39 @@
   color: #67809f;
 }
 
+.bespoke-software-tab .bespoke-button {
+  background-color: #67809f;
+  color: #fff;
+}
+
+.bespoke-software-tab:hover .bespoke-button {
+  background-color: #fff;
+  color: #67809f;
+}
+
 .it-support-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 350px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 60px 20px 0px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .it-support-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .it-support-tab .icon {
@@ -226,7 +312,7 @@
 }
 
 .it-support-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #4183D7;
   color: #fff;
 }
@@ -240,28 +326,39 @@
   color: #4183D7;
 }
 
+.it-support-tab .support-button {
+  background-color: #4183D7;
+  color: #fff;
+}
+
+.it-support-tab:hover .support-button {
+  background-color: #fff;
+  color: #4183D7;
+}
+
 .digital-marketing-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 350px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 60px 20px 0px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .digital-marketing-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .digital-marketing-tab .icon {
@@ -274,7 +371,7 @@
 }
 
 .digital-marketing-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #2ECC71;
   color: #fff;
 }
@@ -288,28 +385,39 @@
   color: #2ECC71;
 }
 
+.digital-marketing-tab .marketing-button {
+  background-color: #2ECC71;
+  color: #fff;
+}
+
+.digital-marketing-tab:hover .marketing-button {
+  background-color: #fff;
+  color: #2ECC71;
+}
+
 .telecoms-services-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 242px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 0px 20px 60px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .telecoms-services-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .telecoms-services-tab .icon {
@@ -322,7 +430,7 @@
 }
 
 .telecoms-services-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #D64541;
   color: #fff;
 }
@@ -336,28 +444,39 @@
   color: #D64541;
 }
 
+.telecoms-services-tab .telecoms-button {
+  background-color: #D64541;
+  color: #fff;
+}
+
+.telecoms-services-tab:hover .telecoms-button {
+  background-color: #fff;
+  color: #D64541;
+}
+
 .webdesign-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 242px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 0px 20px 60px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .webdesign-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .webdesign-tab .icon {
@@ -370,7 +489,7 @@
 }
 
 .webdesign-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #926FB1;
   color: #fff;
 }
@@ -384,28 +503,39 @@
   color: #926FB1;
 }
 
+.webdesign-tab .webdesign-button {
+  background-color: #926FB1;
+  color: #fff;
+}
+
+.webdesign-tab:hover .webdesign-button {
+  background-color: #fff;
+  color: #926FB1;
+}
+
 .cyber-security-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 242px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 0px 20px 60px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .cyber-security-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .cyber-security-tab .icon {
@@ -418,7 +548,7 @@
 }
 
 .cyber-security-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #f62459;
   color: #fff;
 }
@@ -432,28 +562,39 @@
   color: #f62459;
 }
 
+.cyber-security-tab .cybersecurity-button {
+  background-color: #f62459;
+  color: #fff;
+}
+
+.cyber-security-tab:hover .cybersecurity-button {
+  background-color: #fff;
+  color: #f62459;
+}
+
 .developer-training-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #272936;
-  border-radius: 5px;
+  border: 1px solid #cecece;
+  border-radius: 15px;
   padding: 20px;
-  width: 250px;
+  width: 242px;
   height: 300px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  transition: translateY(5px) 0.5s;
-  transform: translateY(5px);
+  margin: 0px 20px 60px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+  transition: translateY(10px) 0.5s;
+  transform: translateY(10px);
   background-color: #fff;
   color: #333645;
 }
 
 .developer-training-tab:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  border: none;
 }
 
 .developer-training-tab .icon {
@@ -466,7 +607,7 @@
 }
 
 .developer-training-tab:hover {
-  transition: translateY(5px) 0.5s, background-color 0.5s, color 0.5s;
+  transition: translateY(10px) 0.5s, background-color 0.5s, color 0.5s;
   background-color: #ce4125;
   color: #fff;
 }
@@ -476,6 +617,16 @@
 }
 
 .developer-training-tab:hover .button {
+  background-color: #fff;
+  color: #ce4125;
+}
+
+.developer-training-tab .developer-button {
+  background-color: #ce4125;
+  color: #fff;
+}
+
+.developer-training-tab:hover .developer-button {
   background-color: #fff;
   color: #ce4125;
 }
