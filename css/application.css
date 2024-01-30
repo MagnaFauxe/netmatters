@@ -295,6 +295,22 @@
   color: #67809f;
 }
 
+.bespoke-software-tab .bespoke-circle {
+  background-color: #67809f;
+}
+
+.bespoke-software-tab:hover .bespoke-circle {
+  background-color: #fff;
+}
+
+.bespoke-software-tab .icon-laptop {
+  color: #fff;
+}
+
+.bespoke-software-tab:hover .icon-laptop {
+  color: #67809f;
+}
+
 .it-support-tab {
   display: flex;
   flex-direction: column;
@@ -351,6 +367,22 @@
 
 .it-support-tab:hover .support-button {
   background-color: #fff;
+  color: #4183D7;
+}
+
+.it-support-tab .support-circle {
+  background-color: #4183D7;
+}
+
+.it-support-tab:hover .support-circle {
+  background-color: #fff;
+}
+
+.it-support-tab .icon-display1 {
+  color: #fff;
+}
+
+.it-support-tab:hover .icon-display1 {
   color: #4183D7;
 }
 
@@ -413,6 +445,22 @@
   color: #2ECC71;
 }
 
+.digital-marketing-tab .marketing-circle {
+  background-color: #2ECC71;
+}
+
+.digital-marketing-tab:hover .marketing-circle {
+  background-color: #fff;
+}
+
+.digital-marketing-tab .icon-bar-graph {
+  color: #fff;
+}
+
+.digital-marketing-tab:hover .icon-bar-graph {
+  color: #2ECC71;
+}
+
 .telecoms-services-tab {
   display: flex;
   flex-direction: column;
@@ -469,6 +517,22 @@
 
 .telecoms-services-tab:hover .telecoms-button {
   background-color: #fff;
+  color: #D64541;
+}
+
+.telecoms-services-tab .telecoms-circle {
+  background-color: #D64541;
+}
+
+.telecoms-services-tab:hover .telecoms-circle {
+  background-color: #fff;
+}
+
+.telecoms-services-tab .icon-phone_in_talk {
+  color: #fff;
+}
+
+.telecoms-services-tab:hover .icon-phone_in_talk {
   color: #D64541;
 }
 
@@ -531,6 +595,22 @@
   color: #926FB1;
 }
 
+.webdesign-tab .webdesign-circle {
+  background-color: #926FB1;
+}
+
+.webdesign-tab:hover .webdesign-circle {
+  background-color: #fff;
+}
+
+.webdesign-tab .icon-code1 {
+  color: #fff;
+}
+
+.webdesign-tab:hover .icon-code1 {
+  color: #926FB1;
+}
+
 .cyber-security-tab {
   display: flex;
   flex-direction: column;
@@ -587,6 +667,22 @@
 
 .cyber-security-tab:hover .cybersecurity-button {
   background-color: #fff;
+  color: #f62459;
+}
+
+.cyber-security-tab .security-circle {
+  background-color: #f62459;
+}
+
+.cyber-security-tab:hover .security-circle {
+  background-color: #fff;
+}
+
+.cyber-security-tab .icon-security {
+  color: #fff;
+}
+
+.cyber-security-tab:hover .icon-security {
   color: #f62459;
 }
 
@@ -647,6 +743,37 @@
 .developer-training-tab:hover .developer-button {
   background-color: #fff;
   color: #ce4125;
+}
+
+.developer-training-tab .developer-circle {
+  background-color: #ce4125;
+}
+
+.developer-training-tab:hover .developer-circle {
+  background-color: #fff;
+}
+
+.developer-training-tab .icon-school {
+  color: #fff;
+}
+
+.developer-training-tab:hover .icon-school {
+  color: #ce4125;
+}
+
+.bespoke-circle, .support-circle, .marketing-circle, .telecoms-circle, .webdesign-circle, .security-circle, .developer-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.icon-laptop, .icon-display1, .icon-bar-graph, .icon-phone_in_talk, .icon-code1, .icon-security, .icon-school {
+  font-size: 2.25rem;
 }
 
 body {

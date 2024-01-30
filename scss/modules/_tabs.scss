@@ -40,6 +40,22 @@
         background-color: $body-color;
         color: $bespoke-color;
     }
+
+    .bespoke-circle {
+        background-color: $bespoke-color;
+    }
+
+    &:hover .bespoke-circle {
+        background-color: $body-color;
+    }
+
+    .icon-laptop {
+        color: $body-color;
+    }
+
+    &:hover .icon-laptop {
+        color: $bespoke-color;
+    }
 }
 
 .it-support-tab {
@@ -69,6 +85,22 @@
 
     &:hover .support-button {
         background-color: $body-color;
+        color: $support-color;
+    }
+
+    .support-circle {
+        background-color: $support-color;
+    }
+
+    &:hover .support-circle {
+        background-color: $body-color;
+    }
+
+    .icon-display1 {
+        color: $body-color
+    }
+
+    &:hover .icon-display1 {
         color: $support-color;
     }
 }
@@ -102,6 +134,22 @@
         background-color: $body-color;
         color: $marketing-color;
     }
+
+    .marketing-circle {
+        background-color: $marketing-color;
+    }
+
+    &:hover .marketing-circle {
+        background-color: $body-color;
+    }
+
+    .icon-bar-graph {
+        color: $body-color;
+    }
+
+    &:hover .icon-bar-graph {
+        color: $marketing-color;
+    }
 }
 
 .telecoms-services-tab {
@@ -131,6 +179,22 @@
 
     &:hover .telecoms-button {
         background-color: $body-color;
+        color: $telecom-color;
+    }
+
+    .telecoms-circle {
+        background-color: $telecom-color;
+    }
+
+    &:hover .telecoms-circle {
+        background-color: $body-color;
+    }
+
+    .icon-phone_in_talk {
+        color: $body-color;
+    }
+
+    &:hover .icon-phone_in_talk {
         color: $telecom-color;
     }
 }
@@ -164,6 +228,22 @@
         background-color: $body-color;
         color: $webdesign-color;
     }
+
+    .webdesign-circle {
+        background-color: $webdesign-color;
+    }
+
+    &:hover .webdesign-circle {
+        background-color: $body-color;
+    }
+
+    .icon-code1 {
+        color: $body-color;
+    }
+
+    &:hover .icon-code1 {
+        color: $webdesign-color;
+    }
 }
 
 .cyber-security-tab {
@@ -193,6 +273,22 @@
 
     &:hover .cybersecurity-button {
         background-color: $body-color;
+        color: $security-color;
+    }
+
+    .security-circle {
+        background-color: $security-color;
+    }
+
+    &:hover .security-circle {
+        background-color: $body-color;
+    }
+
+    .icon-security {
+        color: $body-color;
+    }
+
+    &:hover .icon-security {
         color: $security-color;
     }
 }
@@ -226,4 +322,35 @@
         background-color: $body-color;
         color: $developer-color;
     }
+
+    .developer-circle {
+        background-color: $developer-color;
+    }
+
+    &:hover .developer-circle {
+        background-color: $body-color;
+    }
+
+    .icon-school {
+        color: $body-color;
+    }
+
+    &:hover .icon-school {
+        color: $developer-color;
+    }
+}
+
+.bespoke-circle, .support-circle, .marketing-circle, .telecoms-circle, .webdesign-circle, .security-circle, .developer-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.icon-laptop, .icon-display1, .icon-bar-graph, .icon-phone_in_talk, .icon-code1, .icon-security, .icon-school {
+    font-size: 2.25rem;
 }
