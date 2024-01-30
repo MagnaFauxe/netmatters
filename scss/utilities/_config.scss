@@ -1,19 +1,5 @@
 // Config ---------------------------------------------------------------------
 
-// Font Stacks --------------------------------------------
-
-@font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?2kiay8');
-    src:  url('../fonts/icomoon.eot?2kiay8#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?2kiay8') format('truetype'),
-      url('../fonts/icomoon.woff?2kiay8') format('woff'),
-      url('../fonts/icomoon.svg?2kiay8#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-
 // Descriptive Base Colors --------------------------------
 
 $white   : #fff;
@@ -78,6 +64,52 @@ $fbook-blue         : $chambray;
 $linkedin-blue      : $deep-cerulean;
 $twttr-blue         : $cerulean;
 $instagram-pink     : $cerise;
+
+// Font Stacks --------------------------------------------
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?2kiay8');
+    src:  url('../fonts/icomoon.eot?2kiay8#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?2kiay8') format('truetype'),
+      url('../fonts/icomoon.woff?2kiay8') format('woff'),
+      url('../fonts/icomoon.svg?2kiay8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+// Fonts --------------------------------------------------
+
+h1 {
+    color: $text-color-dark;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 2.75rem;
+}
+
+h2 {
+    color: $text-color-dark;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-family: poppins;
+    font-weight: 400;
+    margin: 5px 0 5px 0;
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: poppins;
+    font-weight: 400 thin;
+    font-size: 0.83rem;
+    padding: 0 20px 0 20px;
+}
+
+
 
 // Color Palette Modifiers --------------------------------
 

@@ -5,7 +5,7 @@ body {
 }
 
 .banner {
-    color: $black;
+    color: $text-color-dark;
     font-size: 1rem;
     background-color: $body-color;
     margin-top: -1rem;
@@ -14,7 +14,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 2px;
 }
 
 img {
@@ -36,17 +35,10 @@ input {
     margin-left: 10px;
 }
 
+
 h2 {
-    background-color: $banner-grey;
-    color: $white;
-    text-align: center;
-    margin-left: -1rem;
-    margin-right: -0.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2.5rem;
+    color: $text-color-dark;
+    text-align: right;
 }
 
 footer {
@@ -81,6 +73,26 @@ h3 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.service-header-left, .service-header-right {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.service-header-left {
+    text-align: right;
+}
+
+.service-header-right {
+    text-align: center;
 }
 
 .our-services {
