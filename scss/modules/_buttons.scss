@@ -60,7 +60,7 @@
     padding: 16px 30px;
     border: none;
     margin: 10px;
-    border-radius: 4%;
+    border-radius: 2%;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@
     padding: 16px 30px;
     border: none;
     margin: 10px;
-    border-radius: 4%;
+    border-radius: 2%;
     cursor: pointer;
 }
 
@@ -154,64 +154,10 @@
     color: $button-text-color;
 }
 
-.bespoke-button {
+.bespoke-button, .support-button, .marketing-button, .telecoms-button, .webdesign-button, .cybersecurity-button, .developer-button {
     height: 50px;
     width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: medium;
-    font-weight: 600;
-}
-
-.support-button {
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: medium;
-    font-weight: 600;
-}
-
-.marketing-button {
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: medium;
-    font-weight: 600;
-}
-
-.telecoms-button {
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: medium;
-    font-weight: 600;
-}
-
-.webdesign-button {
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: medium;
-    font-weight: 600;
-}
-
-.cybersecurity-button {
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    font-size: medium;
-    font-weight: 600;
-}
-
-.developer-button {
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
     font-size: medium;
     font-weight: 600;
