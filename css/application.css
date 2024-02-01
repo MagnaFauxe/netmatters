@@ -320,6 +320,36 @@ p {
   font-weight: 600;
 }
 
+.dropdown-bespoke,
+.dropdown-support,
+.dropdown-marketing,
+.dropdown-telecoms,
+.dropdown-webdesign,
+.dropdown-security,
+.dropdown-developer {
+  visibility: visible;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 2000px;
+  height: 1000px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1;
+}
+
+.button-bespoke-software-banner:hover .dropdown-bespoke,
+.button-it-support-banner:hover .dropdown-support,
+.button-digital-marketing-banner:hover .dropdown-marketing,
+.button-telecoms-services-banner:hover .dropdown-telecoms,
+.button-web-design-banner:hover .dropdown-webdesign,
+.button-cyber-security-banner:hover .dropdown-security,
+.button-developer-course-banner:hover .dropdown-developer {
+  visibility: visible;
+}
+
 .our-services {
   display: flex;
   flex-wrap: wrap;
