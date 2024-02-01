@@ -6,51 +6,67 @@
 //}
 
 .button-facebook {
-    background-color: $fbook-blue ;
+    background-color: $ebony-clay;
     color: $white;
     font-size: 1.6rem;
+    padding-top: 10px;
     width: 70px;
     height: 55px;
     border: none;
     margin: 10px;
     border-radius: 0%;
     cursor: pointer;
+    &:hover {
+        background-color: $fbook-blue;
+    }
 }
 
 .button-linkedin {
-    background-color: $linkedin-blue ;
+    background-color: $ebony-clay;
     color: $white;
     font-size: 1.6rem;
+    padding-top: 10px;
     width: 70px;
     height: 55px;
     border: none;
     margin: 10px;
     border-radius: 0%;
     cursor: pointer;
+    &:hover {
+        background-color: $linkedin-blue;
+    }
 }
 
 .button-twitter {
-    background-color: $twttr-blue ;
+    background-color: $ebony-clay;
     color: $white;
     font-size: 1.6rem;
+    padding-top: 10px;
     width: 70px;
     height: 55px;
     border: none;
     margin: 10px;
     border-radius: 0%;
     cursor: pointer;
+    &:hover {
+        background-color: $twttr-blue;
+    }
 }
 
 .button-instagram {
-    background-color: $instagram-pink ;
+    background-color: $ebony-clay;
     color: $white;
     font-size: 1.6rem;
+    padding-top: 10px;
     width: 70px;
     height: 55px;
     border: none;
     margin: 10px;
     border-radius: 0%;
     cursor: pointer;
+    &:hover {
+        background-color: $instagram-pink;
+    }
 }
 
 .button-support {
@@ -78,80 +94,123 @@
 
 // Banner Drop Down Buttons
 
-.button-bespoke-software-banner {
-    margin-left: 45px;
-    margin-right: 60px;
-    background-color: $bespoke-color;
-    height: 40px;
-    width: 40px;
+.top-banner {
+    display: flex;
+    justify-content: center;
+    background-color: $banner-grey;
+    height: 6.2rem;
+    margin-bottom: 0;
+
+    .button-bespoke-software-banner {
+        margin-left: 45px;
+        margin-right: 60px;
+        color: $bespoke-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
+
+    .button-it-support-banner {
+        margin-left: 60px;
+        margin-right: 60px;
+        color: $support-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
+
+    .button-digital-marketing-banner {
+        margin-left: 60px;
+        margin-right: 60px;
+        color: $marketing-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
+
+    .button-telecoms-services-banner {
+        margin-left: 60px;
+        margin-right: 60px;
+        color: $telecom-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
+
+    .button-web-design-banner {
+        margin-left: 60px;
+        margin-right: 60px;
+        color: $webdesign-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
+
+    .button-cyber-security-banner {
+        margin-left: 60px;
+        margin-right: 60px;
+        color: $security-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
+
+    .button-developer-course-banner {
+        margin-left: 60px;
+        margin-right: 45px;
+        color: $developer-color;
+        cursor: pointer;
+        border-style: none;
+        background-color: $banner-grey;
+        &:hover{
+            
+        }
+    }
 }
 
-.button-it-support-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $support-color;
-    height: 40px;
-    width: 40px;
-}
+// Other Buttons ----------------------------------
 
-.button-digital-marketing-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $marketing-color;
-    height: 40px;
-    width: 40px;
-}
-
-.button-telecoms-services-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $telecom-color;
-    height: 40px;
-    width: 40px;
-}
-
-.button-web-design-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $webdesign-color;
-    height: 40px;
-    width: 40px;
-}
-
-.button-cyber-security-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $security-color;
-    height: 40px;
-    width: 40px;
-}
-
-.button-developer-course-banner {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: $developer-color;
-    height: 40px;
-    width: 40px;
-}
 
 .btn-dark {
     background-color: $button-dark;
     color: $button-text-color;
+    cursor: pointer;
 }
 
 .btn-grey {
     background-color: $button-grey;
     color: $button-text-color;
+    cursor: pointer;
 }
 
 .btn-blue {
     background-color: $button-blue;
     color: $button-text-color;
+    cursor: pointer;
 }
 
 .btn-green {
     background-color: $button-green;
     color: $button-text-color;
+    cursor: pointer;
 }
 
 .bespoke-button, .support-button, .marketing-button, .telecoms-button, .webdesign-button, .cybersecurity-button, .developer-button {

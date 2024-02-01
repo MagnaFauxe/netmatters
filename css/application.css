@@ -83,33 +83,44 @@ p {
 }
 
 .button-facebook {
-  background-color: #3b5998;
+  background-color: #212330;
   color: #fff;
   font-size: 1.6rem;
+  padding-top: 10px;
   width: 70px;
   height: 55px;
   border: none;
   margin: 10px;
   border-radius: 0%;
   cursor: pointer;
+}
+
+.button-facebook:hover {
+  background-color: #3b5998;
 }
 
 .button-linkedin {
-  background-color: #0077b5;
+  background-color: #212330;
   color: #fff;
   font-size: 1.6rem;
+  padding-top: 10px;
   width: 70px;
   height: 55px;
   border: none;
   margin: 10px;
   border-radius: 0%;
   cursor: pointer;
+}
+
+.button-linkedin:hover {
+  background-color: #0077b5;
 }
 
 .button-twitter {
-  background-color: #00aced;
+  background-color: #212330;
   color: #fff;
   font-size: 1.6rem;
+  padding-top: 10px;
   width: 70px;
   height: 55px;
   border: none;
@@ -118,16 +129,25 @@ p {
   cursor: pointer;
 }
 
+.button-twitter:hover {
+  background-color: #00aced;
+}
+
 .button-instagram {
-  background-color: #d93175;
+  background-color: #212330;
   color: #fff;
   font-size: 1.6rem;
+  padding-top: 10px;
   width: 70px;
   height: 55px;
   border: none;
   margin: 10px;
   border-radius: 0%;
   cursor: pointer;
+}
+
+.button-instagram:hover {
+  background-color: #d93175;
 }
 
 .button-support {
@@ -152,80 +172,99 @@ p {
   cursor: pointer;
 }
 
-.button-bespoke-software-banner {
+.top-banner {
+  display: flex;
+  justify-content: center;
+  background-color: #333645;
+  height: 6.2rem;
+  margin-bottom: 0;
+}
+
+.top-banner .button-bespoke-software-banner {
   margin-left: 45px;
   margin-right: 60px;
-  background-color: #67809f;
-  height: 40px;
-  width: 40px;
+  color: #67809f;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
-.button-it-support-banner {
+.top-banner .button-it-support-banner {
   margin-left: 60px;
   margin-right: 60px;
-  background-color: #4183D7;
-  height: 40px;
-  width: 40px;
+  color: #4183D7;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
-.button-digital-marketing-banner {
+.top-banner .button-digital-marketing-banner {
   margin-left: 60px;
   margin-right: 60px;
-  background-color: #2ECC71;
-  height: 40px;
-  width: 40px;
+  color: #2ECC71;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
-.button-telecoms-services-banner {
+.top-banner .button-telecoms-services-banner {
   margin-left: 60px;
   margin-right: 60px;
-  background-color: #D64541;
-  height: 40px;
-  width: 40px;
+  color: #D64541;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
-.button-web-design-banner {
+.top-banner .button-web-design-banner {
   margin-left: 60px;
   margin-right: 60px;
-  background-color: #926FB1;
-  height: 40px;
-  width: 40px;
+  color: #926FB1;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
-.button-cyber-security-banner {
+.top-banner .button-cyber-security-banner {
   margin-left: 60px;
   margin-right: 60px;
-  background-color: #f62459;
-  height: 40px;
-  width: 40px;
+  color: #f62459;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
-.button-developer-course-banner {
+.top-banner .button-developer-course-banner {
   margin-left: 60px;
-  margin-right: 60px;
-  background-color: #ce4125;
-  height: 40px;
-  width: 40px;
+  margin-right: 45px;
+  color: #ce4125;
+  cursor: pointer;
+  border-style: none;
+  background-color: #333645;
 }
 
 .btn-dark {
   background-color: #272936;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-grey {
   background-color: #999aa2;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-blue {
   background-color: #4387F6;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-green {
   background-color: #00b67b;
   color: #fff;
+  cursor: pointer;
 }
 
 .bespoke-button, .support-button, .marketing-button, .telecoms-button, .webdesign-button, .cybersecurity-button, .developer-button {
@@ -305,6 +344,7 @@ p {
 .bespoke-software-tab:hover .bespoke-button {
   background-color: #fff;
   color: #67809f;
+  cursor: pointer;
 }
 
 .bespoke-software-tab .bespoke-circle {
@@ -380,6 +420,7 @@ p {
 .it-support-tab:hover .support-button {
   background-color: #fff;
   color: #4183D7;
+  cursor: pointer;
 }
 
 .it-support-tab .support-circle {
@@ -455,6 +496,7 @@ p {
 .digital-marketing-tab:hover .marketing-button {
   background-color: #fff;
   color: #2ECC71;
+  cursor: pointer;
 }
 
 .digital-marketing-tab .marketing-circle {
@@ -530,6 +572,7 @@ p {
 .telecoms-services-tab:hover .telecoms-button {
   background-color: #fff;
   color: #D64541;
+  cursor: pointer;
 }
 
 .telecoms-services-tab .telecoms-circle {
@@ -605,6 +648,7 @@ p {
 .webdesign-tab:hover .webdesign-button {
   background-color: #fff;
   color: #926FB1;
+  cursor: pointer;
 }
 
 .webdesign-tab .webdesign-circle {
@@ -680,6 +724,7 @@ p {
 .cyber-security-tab:hover .cybersecurity-button {
   background-color: #fff;
   color: #f62459;
+  cursor: pointer;
 }
 
 .cyber-security-tab .security-circle {
@@ -755,6 +800,7 @@ p {
 .developer-training-tab:hover .developer-button {
   background-color: #fff;
   color: #ce4125;
+  cursor: pointer;
 }
 
 .developer-training-tab .developer-circle {
