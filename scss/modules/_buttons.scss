@@ -89,6 +89,9 @@
     margin: 10px;
     border-radius: 2%;
     cursor: pointer;
+    &:hover {
+        background-color: modify-color($button-grey, lighten, 5%);
+    }
 }
 
 
@@ -192,25 +195,61 @@
 .btn-dark {
     background-color: $button-dark;
     color: $button-text-color;
+    height: 50px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
     cursor: pointer;
+    &:hover {
+        background-color: modify-color($button-dark, darken);
+    }
 }
 
 .btn-grey {
     background-color: $button-grey;
     color: $button-text-color;
+    height: 50px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
     cursor: pointer;
+    &:hover {
+        background-color: modify-color($button-grey, darken);
+    }
 }
 
 .btn-blue {
     background-color: $button-blue;
     color: $button-text-color;
+    height: 50px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
     cursor: pointer;
+    &:hover {
+        background-color: modify-color($button-blue, lighten);
+    }
 }
 
 .btn-green {
     background-color: $button-green;
     color: $button-text-color;
+    height: 50px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
     cursor: pointer;
+    &:hover {
+        background-color: modify-color($button-green, darken);
+    }
 }
 
 .bespoke-button, .support-button, .marketing-button, .telecoms-button, .webdesign-button, .cybersecurity-button, .developer-button {

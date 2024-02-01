@@ -113,15 +113,15 @@ p {
 
 // Color Palette Modifiers --------------------------------
 
-@function modify-color($color, $modifier) {
+@function modify-color($color, $modifier, $percentage: 10%) {
     @if $modifier == darken {
-        @return darken($color, 10%);
+        @return darken($color, $percentage);
     } @else if $modifier == lighten {
-        @return lighten($color, 10%);
+        @return lighten($color, $percentage);
     } @else if $modifier == saturate {
-        @return saturate($color, 10%);
+        @return saturate($color, $percentage);
     } @else if $modifier == desaturate {
-        @return desaturate($color, 10%);
+        @return desaturate($color, $percentage);
     } @else {
         @return $color;
     }

@@ -172,6 +172,10 @@ p {
   cursor: pointer;
 }
 
+.button-contact:hover {
+  background-color: #a6a7ae;
+}
+
 .top-banner {
   display: flex;
   justify-content: center;
@@ -246,25 +250,65 @@ p {
 .btn-dark {
   background-color: #272936;
   color: #fff;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.btn-dark:hover {
+  background-color: #121318;
 }
 
 .btn-grey {
   background-color: #999aa2;
   color: #fff;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.btn-grey:hover {
+  background-color: #7e808a;
 }
 
 .btn-blue {
   background-color: #4387F6;
   color: #fff;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #74a6f8;
 }
 
 .btn-green {
   background-color: #00b67b;
   color: #fff;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: medium;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.btn-green:hover {
+  background-color: #008359;
 }
 
 .bespoke-button, .support-button, .marketing-button, .telecoms-button, .webdesign-button, .cybersecurity-button, .developer-button {
