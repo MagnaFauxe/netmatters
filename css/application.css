@@ -21,6 +21,13 @@ h2 {
   font-size: 1.75rem;
 }
 
+h3 {
+  font-family: poppins;
+  font-weight: 500;
+  margin: 5px 0 5px 0;
+  font-size: 1.3rem;
+}
+
 h4 {
   font-family: poppins;
   font-weight: 400;
@@ -35,9 +42,68 @@ p {
   padding: 0 20px 0 20px;
 }
 
-.icon-star {
+.netmatters-introview {
+  color: #fff;
+  background-color: #333645;
+}
+
+.netmatters-introview h2 {
+  color: #fff;
+  font-size: 2.25rem;
+  text-align: left;
+  padding-left: 1.25rem;
+}
+
+.netmatters-introview p {
+  font-size: 1.035rem;
+  padding-bottom: 1rem;
+}
+
+.netmatters-introview .preverb {
+  font-weight: 600;
+}
+
+.netmatters-introview .review {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.netmatters-introview .reviewer {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #999aa2;
+}
+
+.netmatters-introview .reviewer-company {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.netmatters-introview .reviewer-company:hover {
+  text-decoration: underline;
+}
+
+.netmatters-introview .btn-dark, .netmatters-introview .btn-blue, .netmatters-introview .btn-green {
+  font-weight: 500;
+  font-size: 1.175rem;
+}
+
+.netmatters-introview .btn-green, .netmatters-introview .btn-blue {
+  margin-top: 0.9rem;
+}
+
+.netmatters-introview .icon-arrow_forward {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.netmatters-introview .icon-star {
   color: #FFA500;
-  font-size: 4rem;
+  font-size: 3.15rem;
+  letter-spacing: 6px;
 }
 
 @font-face {
@@ -63,6 +129,13 @@ h2 {
   font-size: 1.75rem;
 }
 
+h3 {
+  font-family: poppins;
+  font-weight: 500;
+  margin: 5px 0 5px 0;
+  font-size: 1.3rem;
+}
+
 h4 {
   font-family: poppins;
   font-weight: 400;
@@ -77,9 +150,68 @@ p {
   padding: 0 20px 0 20px;
 }
 
-.icon-star {
+.netmatters-introview {
+  color: #fff;
+  background-color: #333645;
+}
+
+.netmatters-introview h2 {
+  color: #fff;
+  font-size: 2.25rem;
+  text-align: left;
+  padding-left: 1.25rem;
+}
+
+.netmatters-introview p {
+  font-size: 1.035rem;
+  padding-bottom: 1rem;
+}
+
+.netmatters-introview .preverb {
+  font-weight: 600;
+}
+
+.netmatters-introview .review {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.netmatters-introview .reviewer {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #999aa2;
+}
+
+.netmatters-introview .reviewer-company {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.netmatters-introview .reviewer-company:hover {
+  text-decoration: underline;
+}
+
+.netmatters-introview .btn-dark, .netmatters-introview .btn-blue, .netmatters-introview .btn-green {
+  font-weight: 500;
+  font-size: 1.175rem;
+}
+
+.netmatters-introview .btn-green, .netmatters-introview .btn-blue {
+  margin-top: 0.9rem;
+}
+
+.netmatters-introview .icon-arrow_forward {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.netmatters-introview .icon-star {
   color: #FFA500;
-  font-size: 4rem;
+  font-size: 3.15rem;
+  letter-spacing: 6px;
 }
 
 .button-facebook {
@@ -176,6 +308,26 @@ p {
   background-color: #a6a7ae;
 }
 
+.dropdown-bespoke,
+.dropdown-support,
+.dropdown-marketing,
+.dropdown-telecoms,
+.dropdown-webdesign,
+.dropdown-security,
+.dropdown-developer {
+  visibility: hidden;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 2000px;
+  height: 1000px;
+  background-color: #c90798;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1;
+}
+
 .top-banner {
   display: flex;
   justify-content: center;
@@ -191,6 +343,10 @@ p {
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-bespoke-software-banner:hover .dropdown-bespoke {
+  visibility: visible;
 }
 
 .top-banner .button-it-support-banner {
@@ -250,9 +406,11 @@ p {
 .btn-dark {
   background-color: #272936;
   color: #fff;
-  height: 50px;
-  padding: 15px 20px 15px 20px;
-  border-radius: 3px;
+  height: 55px;
+  width: fit-content;
+  padding: 15px 40px 15px 40px;
+  margin: auto 3px 5px;
+  border-radius: 6px;
   border: none;
   font-size: medium;
   font-weight: 600;
@@ -266,9 +424,11 @@ p {
 .btn-grey {
   background-color: #999aa2;
   color: #fff;
-  height: 50px;
+  height: 55px;
+  width: fit-content;
   padding: 15px 20px 15px 20px;
-  border-radius: 3px;
+  margin: auto 3px 5px;
+  border-radius: 6px;
   border: none;
   font-size: medium;
   font-weight: 600;
@@ -282,9 +442,11 @@ p {
 .btn-blue {
   background-color: #4387F6;
   color: #fff;
-  height: 50px;
+  height: 55px;
+  width: fit-content;
   padding: 15px 20px 15px 20px;
-  border-radius: 3px;
+  margin: auto 3px 5px;
+  border-radius: 6px;
   border: none;
   font-size: medium;
   font-weight: 600;
@@ -298,9 +460,11 @@ p {
 .btn-green {
   background-color: #00b67b;
   color: #fff;
-  height: 50px;
+  height: 55px;
+  width: fit-content;
   padding: 15px 20px 15px 20px;
-  border-radius: 3px;
+  margin: auto 3px 5px;
+  border-radius: 6px;
   border: none;
   font-size: medium;
   font-weight: 600;
@@ -318,36 +482,6 @@ p {
   border: none;
   font-size: medium;
   font-weight: 600;
-}
-
-.dropdown-bespoke,
-.dropdown-support,
-.dropdown-marketing,
-.dropdown-telecoms,
-.dropdown-webdesign,
-.dropdown-security,
-.dropdown-developer {
-  visibility: visible;
-  position: fixed;
-  top: 100%;
-  left: 0;
-  width: 2000px;
-  height: 1000px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  z-index: 1;
-}
-
-.button-bespoke-software-banner:hover .dropdown-bespoke,
-.button-it-support-banner:hover .dropdown-support,
-.button-digital-marketing-banner:hover .dropdown-marketing,
-.button-telecoms-services-banner:hover .dropdown-telecoms,
-.button-web-design-banner:hover .dropdown-webdesign,
-.button-cyber-security-banner:hover .dropdown-security,
-.button-developer-course-banner:hover .dropdown-developer {
-  visibility: visible;
 }
 
 .our-services {
@@ -1013,12 +1147,18 @@ h3 {
 }
 
 .netmatters-introview {
-  height: 600px;
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  width: fit-content;
+  padding: 1rem 2rem 3rem 2rem;
+  margin: 0;
   background-color: #333645;
+}
+
+.introview-left, .introview-right {
+  width: 23%;
 }
 
 .news {

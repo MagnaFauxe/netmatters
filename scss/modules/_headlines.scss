@@ -105,12 +105,18 @@ h3 {
 }
 
 .netmatters-introview {
-    height: 600px;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 2rem 3rem 2rem;
+    margin: 0;
     background-color: $banner-grey;
+}
+
+.introview-left, .introview-right {
+    width: 23%;
 }
 
 .news {

@@ -95,6 +95,13 @@ h2 {
     font-size: 1.75rem;
 }
 
+h3 {
+    font-family: poppins;
+    font-weight: 500;
+    margin: 5px 0 5px 0;
+    font-size: 1.3rem;
+}
+
 h4 {
     font-family: poppins;
     font-weight: 400;
@@ -109,7 +116,66 @@ p {
     padding: 0 20px 0 20px;
 }
 
+.netmatters-introview {
+    color: $text-color-light;
+    background-color: $banner-grey;
 
+
+
+    h2 {
+        color: $text-color-light;
+        font-size: 2.25rem;
+        text-align: left;
+        padding-left: 1.25rem;
+    }
+
+    p {
+        font-size: 1.035rem;
+        padding-bottom: 1rem;
+    }
+    .preverb {
+        font-weight: 600;
+    }
+    .review {
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .reviewer {
+        font-size: 1.07rem;
+        font-weight: 600;
+        color: $manatee;
+    }
+    .reviewer-company {
+        font-size: 1.07rem;
+        font-weight: 600;
+        color: $text-color-light;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .btn-dark, .btn-blue, .btn-green {
+        font-weight: 500;
+        font-size: 1.175rem;
+    }
+
+    .btn-green, .btn-blue {
+        margin-top: 0.9rem;
+    }
+
+    .icon-arrow_forward {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+    .icon-star {
+        color: $star-yellow;
+        font-size: 3.15rem;
+        letter-spacing: 6px;
+     }
+}
 
 // Color Palette Modifiers --------------------------------
 
@@ -175,7 +241,3 @@ $tab-colors: (
 
 // Base Colors --------------------------------------------
 
- .icon-star {
-    color: $star-yellow;
-    font-size: 4rem;
- }

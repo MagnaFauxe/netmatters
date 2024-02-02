@@ -95,6 +95,29 @@
 }
 
 
+// Drop Down Menu -----------------------------------------
+
+.dropdown-bespoke, 
+.dropdown-support, 
+.dropdown-marketing, 
+.dropdown-telecoms, 
+.dropdown-webdesign, 
+.dropdown-security, 
+.dropdown-developer {
+    visibility: hidden;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 2000px;
+    height: 1000px;
+    background-color: #c90798;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1;
+}
+
+
 // Banner Drop Down Buttons
 
 .top-banner {
@@ -112,7 +135,9 @@
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            .dropdown-bespoke{
+                visibility: visible;
+            }
         }
     }
 
@@ -195,9 +220,11 @@
 .btn-dark {
     background-color: $button-dark;
     color: $button-text-color;
-    height: 50px;
-    padding: 15px 20px 15px 20px;
-    border-radius: 3px;
+    height: 55px;
+    width: fit-content;
+    padding: 15px 40px 15px 40px;
+    margin: auto 3px 5px;
+    border-radius: 6px;
     border: none;
     font-size: medium;
     font-weight: 600;
@@ -210,9 +237,11 @@
 .btn-grey {
     background-color: $button-grey;
     color: $button-text-color;
-    height: 50px;
+    height: 55px;
+    width: fit-content;
     padding: 15px 20px 15px 20px;
-    border-radius: 3px;
+    margin: auto 3px 5px;
+    border-radius: 6px;
     border: none;
     font-size: medium;
     font-weight: 600;
@@ -225,9 +254,11 @@
 .btn-blue {
     background-color: $button-blue;
     color: $button-text-color;
-    height: 50px;
+    height: 55px;
+    width: fit-content;
     padding: 15px 20px 15px 20px;
-    border-radius: 3px;
+    margin: auto 3px 5px;
+    border-radius: 6px;
     border: none;
     font-size: medium;
     font-weight: 600;
@@ -240,9 +271,11 @@
 .btn-green {
     background-color: $button-green;
     color: $button-text-color;
-    height: 50px;
+    height: 55px;
+    width: fit-content;
     padding: 15px 20px 15px 20px;
-    border-radius: 3px;
+    margin: auto 3px 5px;
+    border-radius: 6px;
     border: none;
     font-size: medium;
     font-weight: 600;
@@ -259,37 +292,4 @@
     border: none;
     font-size: medium;
     font-weight: 600;
-}
-
-
-// Drop Down Menu -----------------------------------------
-
-.dropdown-bespoke, 
-.dropdown-support, 
-.dropdown-marketing, 
-.dropdown-telecoms, 
-.dropdown-webdesign, 
-.dropdown-security, 
-.dropdown-developer {
-    visibility: visible;
-    position: fixed;
-    top: 100%;
-    left: 0;
-    width: 2000px;
-    height: 1000px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    z-index: 1;
-}
-
-.button-bespoke-software-banner:hover .dropdown-bespoke,
-.button-it-support-banner:hover .dropdown-support,
-.button-digital-marketing-banner:hover .dropdown-marketing,
-.button-telecoms-services-banner:hover .dropdown-telecoms,
-.button-web-design-banner:hover .dropdown-webdesign,
-.button-cyber-security-banner:hover .dropdown-security,
-.button-developer-course-banner:hover .dropdown-developer {
-    visibility: visible;
 }
