@@ -1083,17 +1083,6 @@ h2 {
   text-align: right;
 }
 
-footer {
-  position: static;
-  bottom: 0;
-  left: 0;
-  height: 200px;
-  width: 100%;
-  background-color: #333645;
-  color: #fff;
-  padding: 10px;
-}
-
 .bottom-bar {
   position: static;
   bottom: 0;
@@ -1177,4 +1166,107 @@ h3 {
   margin-bottom: 0;
   padding: 0;
   background-color: #dddddd;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: poppins;
+  position: static;
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  bottom: 0;
+  left: 0;
+  height: 21.5rem;
+  width: 100%;
+  background-color: #333645;
+  color: #fff;
+  padding: 10px;
+}
+
+footer .footeraboutsec {
+  font-size: small;
+  margin-left: 2rem;
+  height: 180px;
+  width: 6%;
+}
+
+footer .footeraboutsec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footeraboutsec a:hover {
+  text-decoration: underline;
+}
+
+footer .footeraboutsec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .footerservicessec {
+  font-size: small;
+  height: 180px;
+  width: 6%;
+  margin: 5px;
+}
+
+footer .footerservicessec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footerservicessec a:hover {
+  text-decoration: underline;
+}
+
+footer .footerservicessec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .footerindustriessec {
+  font-size: small;
+  height: 180px;
+  width: 6%;
+}
+
+footer .footerindustriessec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footerindustriessec a:hover {
+  text-decoration: underline;
+}
+
+footer .footerindustriessec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .footerlocationssec {
+  font-size: small;
+  height: 180px;
+  width: 6%;
+}
+
+footer .footerlocationssec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footerlocationssec a:hover {
+  text-decoration: underline;
+}
+
+footer .footerlocationssec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
 }
