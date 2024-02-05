@@ -29,65 +29,86 @@
         <!---------------------- banner and drop down menu ----------------------->
         
         <header class="banner">
+        <div>
             <h1>
-                <img src="netmatters-full-logo.jpg" alt="Netmatters logo">
-                <button class="button-support">Support</button>
+                <img class="nm-logo-main" src="img/f-logo.webp" alt="Netmatters logo">
+                <button class="button-support"><span class="icon-mouse"></span> Support</button>
                 <button class="button-contact">Contact</button>
                 <input type="text" placeholder="Search">
                 <div class="burger-menu">&#9776;</div>
             </h1>
+        </div>
+        </header>
+
+        <!------------- Dropdown Section ------------->
+
+        <div>
             <h2 class="top-banner">
                 <button class="button-bespoke-software-banner">
                     <span class="icon-laptop"></span>
+                    <h5 class="top-banner-title-upper">BESPOKE</h5>
+                    <h4 class="top-banner-title-lower">SOFTWARE</h4>
                     <div class="dropdown-bespoke">
                         <h2>Our Bespoke Software Services</h2>
                     </div>
                 </button>
                 <button class="button-it-support-banner">
                     <span class="icon-display1"></span>
+                    <h5 class="top-banner-title-upper">IT</h5>
+                    <h4 class="top-banner-title-lower">SUPPORT</h4>
                     <div class="dropdown-support">
                         <h2>Our IT Support Services</h2>
                     </div>
                 </button>
                 <button class="button-digital-marketing-banner">
                     <span class="icon-bar-graph"></span>
+                    <h5 class="top-banner-title-upper">DIGITAL</h5>
+                    <h4 class="top-banner-title-lower">MARKETING</h4>
                     <div class="dropdown-marketing">
                         <h2>Our Digital Marketing Services</h2>
                     </div>
                 </button>
                 <button class="button-telecoms-services-banner">
                     <span class="icon-phone_in_talk"></span>
+                    <h5 class="top-banner-title-upper">TELECOMS</h5>
+                    <h4 class="top-banner-title-lower">SERVICES</h4>
                     <div class="dropdown-telecoms">
                         <h2>Our Telecoms Services</h2>
                     </div>
                 </button>
                 <button class="button-web-design-banner">
                     <span class="icon-code1"></span>
+                    <h5 class="top-banner-title-upper">WEB</h5>
+                    <h4 class="top-banner-title-lower">DESIGN</h4>
                     <div class="dropdown-webdesign">
-                        
+                        <h2>Our Web Design Services</h2>
                     </div>
                 </button>
                 <button class="button-cyber-security-banner">
                     <span class="icon-security"></span>
+                    <h5 class="top-banner-title-upper">CYBER</h5>
+                    <h4 class="top-banner-title-lower">SECURITY</h4>
                     <div class="dropdown-security">
                         <h2>Our Cyber Security Services</h2>
                     </div>
                 </button>
                 <button class="button-developer-course-banner">
                     <span class="icon-school"></span>
+                    <h5 class="top-banner-title-upper">DEVELOPER</h5>
+                    <h4 class="top-banner-title-lower">COURSE</h4>
                     <div class="dropdown-developer">
                         <h2>Our Developer Course Services</h2>
                     </div>
                 </button>
             </h2>
-         </header>
+        </div>
 
         <div>
             <!-- Hidden/cloaked Content (Cookies) -->
         </div>
         <div>
             <!-- Containers -->
-            <div>
+            <div class="scrolling_image-banner">
                 <h3>Scrolling Banner MAIN</h3>
             </div>
 
@@ -196,12 +217,27 @@
             </div>
 
             <div class="news">
-                <h2>Latest News</h2>
-                <p>Latest News and second Scrolling partners</p>
+                <h1 class="latest-news">Latest News</h2>
             </div>
+
+            <!-------------------------------- Newsletter and Email --------------------------------->
 
             <div class="newsletter">
                 <h1>Email newsletter Sign-Up</h1>
+
+                <div class="name-input">
+                    <h4>Your Name</h4>
+                    <input type="text">
+                </div>
+
+                <div class="email-input">
+                    <h4>Your Email</h4>
+                    <input type="email">
+                </div>
+
+                <input type="checkbox" id="nl-checkbox">
+                <label for="nl-checkbox" onclick="document.getElementById('myCheckbox').click();">Please tick this box if you wish to receive marketing information from us. Please see our Privacy Policy for more information on how we keep your data safe.</label></label>
+                <br>
                 <button class="btn-nl-subscribe">SUBSCRIBE</button>
             </div>
 
@@ -210,8 +246,8 @@
         </div>
             <footer>
                 <div class="footersocmed">
-                    <img src="netmatters-full-logo.jpg" alt="Netmatters logo">
-                    <h5>FOLLOW US ON:</h5>
+                    <img class="nm-logo-foot" src="img/nm-logo-white-med.webp" alt="Netmatters logo">
+                    <h5 class="follow-us-on">FOLLOW US ON:</h5>
                     <button class="button-facebook">
                         <span class="icon-facebook"></span>
                     </button>

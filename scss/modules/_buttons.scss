@@ -5,69 +5,7 @@
    // color: $white;
 //}
 
-.button-facebook {
-    background-color: $ebony-clay;
-    color: $white;
-    font-size: 1.6rem;
-    padding-top: 10px;
-    width: 70px;
-    height: 55px;
-    border: none;
-    margin: 10px;
-    border-radius: 0%;
-    cursor: pointer;
-    &:hover {
-        background-color: $fbook-blue;
-    }
-}
 
-.button-linkedin {
-    background-color: $ebony-clay;
-    color: $white;
-    font-size: 1.6rem;
-    padding-top: 10px;
-    width: 70px;
-    height: 55px;
-    border: none;
-    margin: 10px;
-    border-radius: 0%;
-    cursor: pointer;
-    &:hover {
-        background-color: $linkedin-blue;
-    }
-}
-
-.button-twitter {
-    background-color: $ebony-clay;
-    color: $white;
-    font-size: 1.6rem;
-    padding-top: 10px;
-    width: 70px;
-    height: 55px;
-    border: none;
-    margin: 10px;
-    border-radius: 0%;
-    cursor: pointer;
-    &:hover {
-        background-color: $twttr-blue;
-    }
-}
-
-.button-instagram {
-    background-color: $ebony-clay;
-    color: $white;
-    font-size: 1.6rem;
-    padding-top: 10px;
-    width: 70px;
-    height: 55px;
-    border: none;
-    margin: 10px;
-    border-radius: 0%;
-    cursor: pointer;
-    &:hover {
-        background-color: $instagram-pink;
-    }
-}
 
 .button-support {
     background-color: $button-blue;
@@ -128,88 +66,130 @@
     margin-bottom: 0;
 
     .button-bespoke-software-banner {
-        margin-left: 45px;
-        margin-right: 60px;
         color: $bespoke-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
             .dropdown-bespoke{
-                visibility: visible;
+                visibility: visible; 
             }
+            background-color: $bespoke-color;
+            color: $text-color-light;
+        }
+        .icon-laptop{
+            font-size: 1.5rem;
         }
     }
 
     .button-it-support-banner {
-        margin-left: 60px;
-        margin-right: 60px;
         color: $support-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            visibility: visible;
+            background-color: $support-color;
+            color: $text-color-light;
+        }
+        .icon-display1{
+            font-size: 1.5rem;
         }
     }
 
     .button-digital-marketing-banner {
-        margin-left: 60px;
-        margin-right: 60px;
         color: $marketing-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            visibility: visible;
+            background-color: $marketing-color;
+            color: $text-color-light;
+        }
+        .icon-bar-graph{
+            font-size: 1.5rem;
         }
     }
 
     .button-telecoms-services-banner {
-        margin-left: 60px;
-        margin-right: 60px;
         color: $telecom-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            visibility: visible;
+            background-color: $telecom-color;
+            color: $text-color-light;
+        }
+        .icon-phone_in_talk{
+            font-size: 1.5rem;
         }
     }
 
     .button-web-design-banner {
-        margin-left: 60px;
-        margin-right: 60px;
         color: $webdesign-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            visibility: visible;
+            background-color: $webdesign-color;
+            color: $text-color-light;
+        }
+        .icon-code1{
+            font-size: 1.5rem;
         }
     }
 
     .button-cyber-security-banner {
-        margin-left: 60px;
-        margin-right: 60px;
         color: $security-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            visibility: visible;
+            background-color: $security-color;
+            color: $text-color-light;
+        }
+        .icon-security{
+            font-size: 1.5rem;
         }
     }
 
     .button-developer-course-banner {
-        margin-left: 60px;
-        margin-right: 45px;
         color: $developer-color;
+        width: 6.5%;
+        height: 100%;
+        padding-top: 1rem;
         cursor: pointer;
         border-style: none;
         background-color: $banner-grey;
         &:hover{
-            
+            visibility: visible;
+            background-color: $developer-color;
+            color: $text-color-light;
+        }
+        .icon-school{
+            font-size: 1.5rem;
         }
     }
 }
@@ -292,4 +272,45 @@
     border: none;
     font-size: medium;
     font-weight: 600;
+}
+
+
+
+// Social Media Buttons -----------------------------------------------------------------
+
+.button-facebook, .button-linkedin, .button-twitter, .button-instagram {
+    background-color: $ebony-clay;
+    color: $white;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    width: 70px;
+    height: 55px;
+    margin-right: 3px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    }
+
+    .button-facebook {
+        &:hover {
+            background-color: $fbook-blue;
+        }
+    }
+    
+    .button-linkedin {
+        &:hover {
+            background-color: $linkedin-blue;
+        }
+    }
+    
+    .button-twitter {
+        &:hover {
+            background-color: $twttr-blue;
+        }
+    }
+    
+    .button-instagram {
+        &:hover {
+            background-color: $instagram-pink;
+        }
 }

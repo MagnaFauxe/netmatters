@@ -214,74 +214,6 @@ p {
   letter-spacing: 6px;
 }
 
-.button-facebook {
-  background-color: #212330;
-  color: #fff;
-  font-size: 1.6rem;
-  padding-top: 10px;
-  width: 70px;
-  height: 55px;
-  border: none;
-  margin: 10px;
-  border-radius: 0%;
-  cursor: pointer;
-}
-
-.button-facebook:hover {
-  background-color: #3b5998;
-}
-
-.button-linkedin {
-  background-color: #212330;
-  color: #fff;
-  font-size: 1.6rem;
-  padding-top: 10px;
-  width: 70px;
-  height: 55px;
-  border: none;
-  margin: 10px;
-  border-radius: 0%;
-  cursor: pointer;
-}
-
-.button-linkedin:hover {
-  background-color: #0077b5;
-}
-
-.button-twitter {
-  background-color: #212330;
-  color: #fff;
-  font-size: 1.6rem;
-  padding-top: 10px;
-  width: 70px;
-  height: 55px;
-  border: none;
-  margin: 10px;
-  border-radius: 0%;
-  cursor: pointer;
-}
-
-.button-twitter:hover {
-  background-color: #00aced;
-}
-
-.button-instagram {
-  background-color: #212330;
-  color: #fff;
-  font-size: 1.6rem;
-  padding-top: 10px;
-  width: 70px;
-  height: 55px;
-  border: none;
-  margin: 10px;
-  border-radius: 0%;
-  cursor: pointer;
-}
-
-.button-instagram:hover {
-  background-color: #d93175;
-}
-
 .button-support {
   background-color: #4387F6;
   color: #fff;
@@ -337,70 +269,146 @@ p {
 }
 
 .top-banner .button-bespoke-software-banner {
-  margin-left: 45px;
-  margin-right: 60px;
   color: #67809f;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-bespoke-software-banner:hover {
+  background-color: #67809f;
+  color: #fff;
 }
 
 .top-banner .button-bespoke-software-banner:hover .dropdown-bespoke {
   visibility: visible;
 }
 
+.top-banner .button-bespoke-software-banner .icon-laptop {
+  font-size: 1.5rem;
+}
+
 .top-banner .button-it-support-banner {
-  margin-left: 60px;
-  margin-right: 60px;
   color: #4183D7;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-it-support-banner:hover {
+  visibility: visible;
+  background-color: #4183D7;
+  color: #fff;
+}
+
+.top-banner .button-it-support-banner .icon-display1 {
+  font-size: 1.5rem;
 }
 
 .top-banner .button-digital-marketing-banner {
-  margin-left: 60px;
-  margin-right: 60px;
   color: #2ECC71;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-digital-marketing-banner:hover {
+  visibility: visible;
+  background-color: #2ECC71;
+  color: #fff;
+}
+
+.top-banner .button-digital-marketing-banner .icon-bar-graph {
+  font-size: 1.5rem;
 }
 
 .top-banner .button-telecoms-services-banner {
-  margin-left: 60px;
-  margin-right: 60px;
   color: #D64541;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-telecoms-services-banner:hover {
+  visibility: visible;
+  background-color: #D64541;
+  color: #fff;
+}
+
+.top-banner .button-telecoms-services-banner .icon-phone_in_talk {
+  font-size: 1.5rem;
 }
 
 .top-banner .button-web-design-banner {
-  margin-left: 60px;
-  margin-right: 60px;
   color: #926FB1;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-web-design-banner:hover {
+  visibility: visible;
+  background-color: #926FB1;
+  color: #fff;
+}
+
+.top-banner .button-web-design-banner .icon-code1 {
+  font-size: 1.5rem;
 }
 
 .top-banner .button-cyber-security-banner {
-  margin-left: 60px;
-  margin-right: 60px;
   color: #f62459;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
 }
 
+.top-banner .button-cyber-security-banner:hover {
+  visibility: visible;
+  background-color: #f62459;
+  color: #fff;
+}
+
+.top-banner .button-cyber-security-banner .icon-security {
+  font-size: 1.5rem;
+}
+
 .top-banner .button-developer-course-banner {
-  margin-left: 60px;
-  margin-right: 45px;
   color: #ce4125;
+  width: 6.5%;
+  height: 100%;
+  padding-top: 1rem;
   cursor: pointer;
   border-style: none;
   background-color: #333645;
+}
+
+.top-banner .button-developer-course-banner:hover {
+  visibility: visible;
+  background-color: #ce4125;
+  color: #fff;
+}
+
+.top-banner .button-developer-course-banner .icon-school {
+  font-size: 1.5rem;
 }
 
 .btn-dark {
@@ -482,6 +490,35 @@ p {
   border: none;
   font-size: medium;
   font-weight: 600;
+}
+
+.button-facebook, .button-linkedin, .button-twitter, .button-instagram {
+  background-color: #212330;
+  color: #fff;
+  font-size: 1.6rem;
+  padding-top: 10px;
+  width: 70px;
+  height: 55px;
+  margin-right: 3px;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
+.button-facebook:hover {
+  background-color: #3b5998;
+}
+
+.button-linkedin:hover {
+  background-color: #0077b5;
+}
+
+.button-twitter:hover {
+  background-color: #00aced;
+}
+
+.button-instagram:hover {
+  background-color: #d93175;
 }
 
 .our-services {
@@ -1047,10 +1084,24 @@ body {
 }
 
 .banner {
+  display: flex;
+  justify-content: center;
   color: #333645;
   font-size: 1rem;
   background-color: #fff;
-  margin-top: -1rem;
+  margin-top: 1rem;
+}
+
+.top-banner-title-upper {
+  font-size: x-small;
+  margin: 0px 0 0 0;
+  color: #fff;
+}
+
+.top-banner-title-lower {
+  font-size: medium;
+  margin: 0 0 10px 0;
+  color: #fff;
 }
 
 h1 {
@@ -1059,9 +1110,8 @@ h1 {
   justify-content: space-between;
 }
 
-img {
-  width: 100%;
-  height: auto;
+.nm-logo-main {
+  size: 40%;
 }
 
 input {
@@ -1088,7 +1138,7 @@ h2 {
   bottom: 0;
   left: 0;
   height: 20px;
-  width: 100%;
+  width: 100% -10px;
   background-color: #212330;
   color: #fff;
   padding: 10px;
@@ -1096,14 +1146,12 @@ h2 {
   line-height: 0px;
 }
 
-h3 {
+.scrolling_image-banner {
+  display: flex;
+  justify-content: center;
   height: 600px;
   width: 100%;
   background-color: darkred;
-  align-self: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
 }
 
 .service-header {
@@ -1152,10 +1200,7 @@ h3 {
 
 .news {
   height: 800px;
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
+  width: 90%;
   background-color: #fff;
 }
 
@@ -1179,15 +1224,21 @@ footer {
   bottom: 0;
   left: 0;
   height: 21.5rem;
-  width: 100%;
+  width: 100% -10px;
   background-color: #333645;
   color: #fff;
   padding: 10px;
 }
 
+footer .follow-us-on {
+  font-weight: 400;
+  font-size: 1.025rem;
+}
+
 footer .footeraboutsec {
   font-size: small;
   margin-left: 2rem;
+  margin-right: 2rem;
   height: 180px;
   width: 6%;
 }
@@ -1209,6 +1260,7 @@ footer .footeraboutsec h4 {
 
 footer .footerservicessec {
   font-size: small;
+  margin-left: 2rem;
   height: 180px;
   width: 6%;
   margin: 5px;
@@ -1231,6 +1283,7 @@ footer .footerservicessec h4 {
 
 footer .footerindustriessec {
   font-size: small;
+  margin-left: 2rem;
   height: 180px;
   width: 6%;
 }
@@ -1252,6 +1305,7 @@ footer .footerindustriessec h4 {
 
 footer .footerlocationssec {
   font-size: small;
+  margin-left: 2rem;
   height: 180px;
   width: 6%;
 }
