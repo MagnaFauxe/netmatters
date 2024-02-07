@@ -1348,6 +1348,8 @@ footer .footerlocationssec h4 {
 .newsletter .nl-header {
   text-align: left;
   margin: 2rem 0 0 0;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .newsletter .input-container {
@@ -1362,6 +1364,15 @@ footer .footerlocationssec h4 {
   margin-bottom: 1rem;
 }
 
+.newsletter #nl-input-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.newsletter .nl-title-asterisk {
+  color: #f62459;
+}
+
 .newsletter input[type="text"],
 .newsletter input[type="email"] {
   height: 0.5rem;
@@ -1370,14 +1381,43 @@ footer .footerlocationssec h4 {
 }
 
 .newsletter input[type="checkbox"] {
-  transform: scale(1.5);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  min-width: none !important;
+  min-height: none !important;
+  border: 3px solid #333645;
+  border-radius: 5px;
+  background-color: 1;
+}
+
+.newsletter input[type="checkbox"]:checked {
+  background-color: #333645;
+}
+
+.newsletter input[type="checkbox"]:checked::before {
+  content: "\2713";
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: bold;
+  color: #fff;
+  position: relative;
+  top: -1.5rem;
+  left: -0.75rem;
 }
 
 .newsletter .checkbox-container {
-  width: 55%;
+  display: flex;
+  vertical-align: top;
+  margin-left: -3px;
+  width: 92%;
   text-align: left;
   align-content: left;
   margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.05rem;
 }
 
 .newsletter .btn-nl-subscribe:hover {

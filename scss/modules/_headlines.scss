@@ -241,6 +241,8 @@ footer {
     .nl-header {
         text-align: left;
         margin: 2rem 0 0 0;
+        font-weight: 500;
+        font-size: 2rem;
     }
 
     .input-container {
@@ -255,23 +257,63 @@ footer {
         margin-bottom: 1rem;
     }
 
+    #nl-input-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .nl-title-asterisk {
+        color: $radical-red;
+    }
+
     input[type="text"],
     input[type="email"] {
         height: 0.5rem;
         border-radius: 2px;
         border: 1px solid modify-color($alto, darken, 10%);
-}
+    }
 
 input[type="checkbox"] {
-    transform: scale(1.5);
-}
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+    min-width: none !important;
+    min-height: none !important;
+    border: 3px solid $banner-grey;
+    border-radius: 5px;
+    background-color: alpha($color: #000000);
+    }
+
+input[type="checkbox"]:checked {
+    background-color: $banner-grey;
+    }
+
+input[type="checkbox"]:checked::before {
+    content: "\2713";
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: bold;
+    color: $text-color-light;
+    position: relative;
+    top: -1.5rem;
+    left: -0.75rem;
+    }
 
     .checkbox-container {
-        width: 55%;
+        display: flex;
+        vertical-align: top;
+        margin-left: -3px;
+        width: 92%;
         text-align: left;
         align-content: left;
         margin-bottom: 2rem;
+        font-weight: 600;
+        font-size: 1.05rem ;
     }
+
+    
     
     .btn-nl-subscribe {
         &:hover {
