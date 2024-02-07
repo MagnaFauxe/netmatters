@@ -493,21 +493,21 @@ p {
 }
 
 .btn-nl-subscribe {
-  background-color: #272936;
+  background-color: #333645;
   color: #fff;
-  height: 55px;
+  height: fit-content;
   width: fit-content;
-  padding: 15px 40px 15px 40px;
+  padding: 0.9rem;
   margin: auto 3px 5px;
-  border-radius: 6px;
+  border-radius: 4px;
   border: none;
   font-size: medium;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .btn-nl-subscribe:hover {
-  background-color: #121318;
+  background-color: #1d1f28;
 }
 
 .button-facebook, .button-linkedin, .button-twitter, .button-instagram {

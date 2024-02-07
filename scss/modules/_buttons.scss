@@ -277,19 +277,19 @@
 // Newsletter Buttons -------------------------------------------------------------------
 
 .btn-nl-subscribe {
-    background-color: $button-dark;
+    background-color: $banner-grey;
     color: $button-text-color;
-    height: 55px;
+    height: fit-content;
     width: fit-content;
-    padding: 15px 40px 15px 40px;
+    padding: 0.9rem;
     margin: auto 3px 5px;
-    border-radius: 6px;
+    border-radius: 4px;
     border: none;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     &:hover {
-        background-color: modify-color($button-dark, darken);
+        background-color: modify-color($banner-grey, darken);
     }
 }
 
