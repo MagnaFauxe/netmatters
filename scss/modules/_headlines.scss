@@ -126,16 +126,6 @@ h2 {
     background-color: $body-color;
 }
 
-.newsletter {
-    height: 300px;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-    background-color: $banner-lgt-grey;
-}
-
-
 // Footer Section ---------------------------------------------------------
 
 footer {
@@ -230,6 +220,62 @@ footer {
         h4 {
             font-size: medium;
             padding: 1rem 0 1rem 0;
+        }
+    }
+}
+
+
+
+// Newsletter Section ---------------------------
+
+.newsletter {
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 25% 3rem 25%;
+    height: fit-content;
+    width: 50%;
+    background-color: $banner-lgt-grey;
+
+    .nl-header {
+        text-align: left;
+        margin: 2rem 0 0 0;
+    }
+
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .name-input, .email-input {
+        text-align: left;
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        height: 0.5rem;
+        border-radius: 2px;
+        border: 1px solid modify-color($alto, darken, 10%);
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+    .checkbox-container {
+        width: 55%;
+        text-align: left;
+        align-content: left;
+        margin-bottom: 2rem;
+    }
+    
+    .btn-nl-subscribe {
+        &:hover {
+            cursor: pointer;
         }
     }
 }

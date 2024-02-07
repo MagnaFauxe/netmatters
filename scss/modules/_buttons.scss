@@ -274,7 +274,24 @@
     font-weight: 600;
 }
 
+// Newsletter Buttons -------------------------------------------------------------------
 
+.btn-nl-subscribe {
+    background-color: $button-dark;
+    color: $button-text-color;
+    height: 55px;
+    width: fit-content;
+    padding: 15px 40px 15px 40px;
+    margin: auto 3px 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+        background-color: modify-color($button-dark, darken);
+    }
+}
 
 // Social Media Buttons -----------------------------------------------------------------
 
