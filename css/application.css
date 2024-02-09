@@ -1331,6 +1331,8 @@ footer .footerlocationssec h4 {
 .news-section {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   height: 800px;
@@ -1339,17 +1341,38 @@ footer .footerlocationssec h4 {
 }
 
 .news-section .news-header {
-  align-self: baseline;
+  text-align: left;
   font-family: poppins;
   font-size: 2.3rem;
   font-weight: 600;
-  text-align: left;
+  margin: 0;
+  margin-left: 1.5rem;
 }
 
 .news-tab-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2.5rem;
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+
+.posted-by {
+  font-family: poppins;
+}
+
+.posted-by h5 {
+  font-size: medium;
+  margin-bottom: 0;
+}
+
+.posted-by img {
+  border-radius: 50%;
+}
+
+.news-tab-img img {
+  width: 100%;
+  height: auto;
 }
 
 .news-tab-left {
@@ -1360,8 +1383,7 @@ footer .footerlocationssec h4 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  padding: 20px;
-  width: 330px;
+  width: 14.5%;
   height: 520px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -1388,8 +1410,7 @@ footer .footerlocationssec h4 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  padding: 20px;
-  width: 330px;
+  width: 14.5%;
   height: 520px;
   margin: 60px 20px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -1408,6 +1429,11 @@ footer .footerlocationssec h4 {
   margin-left: 1rem;
 }
 
+.news-tab-center .news-tab-center-header span {
+  color: #999aa2;
+  font-size: 0.9rem;
+}
+
 .news-tab-right {
   display: flex;
   flex-direction: column;
@@ -1416,10 +1442,9 @@ footer .footerlocationssec h4 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  padding: 20px;
-  width: 330px;
+  width: 14.5%;
   height: 520px;
-  margin: 60px 20px 0px 00px;
+  margin: 60px 20px 0px 10px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;
 }
@@ -1446,9 +1471,9 @@ footer .footerlocationssec h4 {
 
 .news-tab-center-button, .news-tab-left-button, .news-tab-right-button {
   align-self: baseline;
-  margin: 1rem 0rem 1rem 1.2rem;
-  height: 50px;
-  width: 130px;
+  margin-left: 1.2rem;
+  height: 50px !important;
+  width: 130px !important;
   border-radius: 3px;
   border: none;
   font-size: medium;
