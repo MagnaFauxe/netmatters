@@ -1167,9 +1167,8 @@ h2 {
 .scrolling_image-banner {
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: auto;
   width: 100%;
-  background-color: darkred;
 }
 
 .service-header {
@@ -1177,19 +1176,21 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  width: 60%;
+  margin-left: 20%;
 }
 
-.service-header-left, .service-header-right {
+.service-header .service-header-left, .service-header .service-header-right {
   flex-grow: 1;
   text-align: center;
 }
 
-.service-header-left {
-  text-align: right;
+.service-header .service-header-left {
+  text-align: left;
 }
 
-.service-header-right {
-  text-align: center;
+.service-header .service-header-right {
+  text-align: right;
 }
 
 .our-services {
@@ -1341,12 +1342,14 @@ footer .footerlocationssec h4 {
 }
 
 .news-section .news-header {
-  text-align: left;
+  text-align: center;
+  justify-content: space-between;
   font-family: poppins;
   font-size: 2.3rem;
   font-weight: 600;
-  margin: 0;
-  margin-left: 1.5rem;
+  margin-top: -4rem;
+  margin-bottom: 2rem;
+  width: 62.5%;
 }
 
 .news-tab-container {
@@ -1358,16 +1361,35 @@ footer .footerlocationssec h4 {
 }
 
 .posted-by {
+  display: flex;
+  align-items: center;
   font-family: poppins;
 }
 
-.posted-by h5 {
-  font-size: medium;
-  margin-bottom: 0;
+.posted-by .profilepic {
+  margin-top: 25px;
+  margin-left: -2rem;
+  margin-right: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
 }
 
-.posted-by img {
-  border-radius: 50%;
+.posted-by .posted-by .postinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.posted-by .posted-by .postinfo .datepost {
+  display: block;
+}
+
+.posted-by .postinfoheader {
+  width: 90%;
+  font-size: medium;
+  margin-top: 2rem;
+  margin-bottom: -0.5rem;
+  margin-left: 1.1rem;
 }
 
 .news-tab-img img {
@@ -1402,6 +1424,11 @@ footer .footerlocationssec h4 {
   margin-left: -1rem;
 }
 
+.news-tab-left img {
+  margin-bottom: 2px;
+  margin-top: -46px;
+}
+
 .news-tab-center {
   display: flex;
   flex-direction: column;
@@ -1434,6 +1461,11 @@ footer .footerlocationssec h4 {
   font-size: 0.9rem;
 }
 
+.news-tab-center img {
+  margin-bottom: 25px;
+  margin-top: -30px;
+}
+
 .news-tab-right {
   display: flex;
   flex-direction: column;
@@ -1459,6 +1491,11 @@ footer .footerlocationssec h4 {
   font-weight: 600;
   color: #2ECC71;
   margin-left: -1rem;
+}
+
+.news-tab-right img {
+  margin-bottom: 2px;
+  margin-top: -38px;
 }
 
 .news-tab-left-button, .news-tab-right-button {
