@@ -111,6 +111,26 @@ h2 {
 }
 
 
+.partnerscroll-services {
+    display: flex;
+    justify-content: center;
+    
+
+    img {
+        width: auto;
+        height: 75px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+        filter: grayscale(100%);
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+}
+
+
 // Introview Section -------------------------------------------------------
 
 .netmatters-introview {
@@ -415,6 +435,26 @@ footer {
     font-size: medium;
     font-weight: 600;
     color: $text-color-light;
+}
+
+
+.partnerscroll-news {
+    display: flex;
+    justify-content: center;
+    
+
+    img {
+        width: auto;
+        height: 55px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+        filter: grayscale(100%);
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
 }
 
 

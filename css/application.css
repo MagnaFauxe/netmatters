@@ -1202,6 +1202,25 @@ h2 {
   background-color: #fff;
 }
 
+.partnerscroll-services {
+  display: flex;
+  justify-content: center;
+}
+
+.partnerscroll-services img {
+  width: auto;
+  height: 75px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  filter: grayscale(100%);
+}
+
+.partnerscroll-services img:hover {
+  filter: grayscale(0%);
+}
+
 .netmatters-introview {
   display: flex;
   justify-content: center;
@@ -1516,6 +1535,25 @@ footer .footerlocationssec h4 {
   font-size: medium;
   font-weight: 600;
   color: #fff;
+}
+
+.partnerscroll-news {
+  display: flex;
+  justify-content: center;
+}
+
+.partnerscroll-news img {
+  width: auto;
+  height: 55px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  filter: grayscale(100%);
+}
+
+.partnerscroll-news img:hover {
+  filter: grayscale(0%);
 }
 
 .newsletter {
