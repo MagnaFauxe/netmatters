@@ -331,3 +331,34 @@
             background-color: $instagram-pink;
         }
 }
+
+
+// Manage Consent --------------------------------
+
+.button-consent {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 8px 0 0;
+    border-style: none;
+    color: $text-color-light;
+    background-color: $button-grey;
+    width: fit-content;
+    height: fit-content;
+    font-family: poppins;
+    font-size: 0.9rem;
+    z-index: 9999;
+    &:hover {
+        background-color: modify-color($button-grey, darken);;
+    }
+}
+
+.button-chatsupport {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2rem;
+    background: none;
+    z-index: 9999;
+    border-style: none;
+}
