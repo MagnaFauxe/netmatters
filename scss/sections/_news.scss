@@ -1,0 +1,207 @@
+// News Section ---------------------------------
+
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 800px;
+    width: 100%;
+    background-color: $body-color;
+
+    .news-header {
+        text-align: center;
+        justify-content: space-between;
+        font-family: poppins;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: -4rem;
+        margin-bottom: 2rem;
+        width: 62.5%;
+    }
+}
+
+
+
+.news-tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -2.5rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+}
+
+.posted-by {
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+    
+    .profilepic {
+        margin-top: 25px;
+        margin-left: -2rem;
+        margin-right: 10px;
+        border-radius: 50%;
+        height: 50px;
+        width: auto;
+    }
+
+    .posted-by .postinfo {
+        display: flex;
+        flex-direction: column;
+
+        .datepost {
+            display: block;
+        }
+    }
+    .postinfoheader {
+        width: 90%;
+        font-size: medium;
+        margin-top: 2rem;
+        margin-bottom: -0.5rem;
+        margin-left: 1.1rem;
+    }
+}
+
+.news-tab-img img{
+    //align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.news-tab-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid $light-grey;
+    border-radius: 0 0 5px 5px;
+    width: 14.5%;
+    height: 520px;
+    margin: 60px 10px 0px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
+    &:hover {
+        transform: translateY(-10px);
+        border: none;
+    }
+    .news-tab-left-header {
+        font-size: medium;
+        font-weight: 600;
+        color: $marketing-color;
+        margin-left: -1rem;
+    }
+    img {
+        margin-bottom: 2px;
+        margin-top: -46px;
+    }
+}
+
+.news-tab-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid $light-grey;
+    border-radius: 0 0 5px 5px;
+    width: 14.5%;
+    height: 520px;
+    margin: 60px 20px 0px 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
+    &:hover {
+        transform: translateY(-10px);
+        border: none;
+    }
+    .news-tab-center-header {
+        font-size: medium;
+        font-weight: 600;
+        color: $support-color;
+        margin-left: 1rem;
+
+        span {
+            color: $manatee;
+            font-size: 0.9rem;
+        }
+    }
+    img {
+        margin-bottom: 25px;
+        margin-top: -30px;
+    }
+}
+
+.news-tab-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid $light-grey;
+    border-radius: 0 0 5px 5px;
+    width: 14.5%;
+    height: 520px;
+    margin: 60px 20px 0px 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
+    &:hover {
+        transform: translateY(-10px);
+        border: none;
+    }
+    .news-tab-right-header {
+        font-size: medium;
+        font-weight: 600;
+        color: $marketing-color;
+        margin-left: -1rem;
+    }
+    img {
+        margin-bottom: 2px;
+        margin-top: -38px;
+    }
+}
+
+
+
+.news-tab-left-button, .news-tab-right-button {
+    background-color: $marketing-color;
+}
+
+.news-tab-center-button {
+    background-color: $support-color;
+}
+
+.news-tab-center-button, .news-tab-left-button, .news-tab-right-button {
+    align-self: baseline;
+    margin-left: 1.2rem; 
+    height: 50px !important;
+    width: 130px !important;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    color: $text-color-light;
+}
+
+
+.partnerscroll-news {
+    display: flex;
+    justify-content: center;
+    
+
+    img {
+        width: auto;
+        height: 55px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+        filter: grayscale(100%);
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+}
+

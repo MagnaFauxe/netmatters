@@ -1,0 +1,76 @@
+// Header and Banner ------------------------------------
+
+body {
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    color: $text-color-dark;
+    font-size: 1rem;
+    background-color: $body-color;
+    margin-top: 1rem;
+}
+
+.top-banner-title-upper {
+    font-size: x-small;
+    margin: 0px 0 0 0;
+    color: $text-color-light;
+}
+
+.top-banner-title-lower {
+    font-size: medium;
+    margin: 0 0 10px 0;
+    color: $text-color-light;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .nm-logo-main {
+        size: 40%;
+    }
+
+input {
+    margin-right: 10px;
+    padding: 18px;
+}
+
+.burger-menu {
+    background-color: $banner-drk-grey;
+    padding: 1px 13px 6px 13px;
+    border-radius: 4px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+h2 {
+    color: $text-color-dark;
+    text-align: right;
+}
+
+.bottom-bar {
+    position: static;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100% -10px;
+    background-color: $banner-drk-grey;
+    color: $white;
+    padding: 10px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.scrolling_image-banner {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}

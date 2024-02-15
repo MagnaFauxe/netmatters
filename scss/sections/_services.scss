@@ -1,0 +1,54 @@
+//Services Section ---------------------------------
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
+
+    .service-header-left, .service-header-right {
+        flex-grow: 1;
+        text-align: center;
+     }
+     
+     .service-header-left {
+        text-align: left;
+     }
+     
+     .service-header-right {
+         text-align: right;
+     }
+}
+
+
+
+.our-services {
+    height: 1000px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: $body-color;
+}
+
+
+.partnerscroll-services {
+    display: flex;
+    justify-content: center;
+    
+
+    img {
+        width: auto;
+        height: 75px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+        filter: grayscale(100%);
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+}

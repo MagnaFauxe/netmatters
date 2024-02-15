@@ -1,0 +1,16 @@
+// Introview Section -------------------------------------------------------
+
+.netmatters-introview {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 2rem 3rem 2rem;
+    margin: 0;
+    background-color: $banner-grey;
+}
+
+.introview-left, .introview-right {
+    width: 23%;
+}

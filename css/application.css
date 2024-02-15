@@ -214,6 +214,90 @@ p {
   letter-spacing: 6px;
 }
 
+@media (max-width: 768px) {
+  .banner {
+    width: fit-content;
+  }
+  .bottom-bar {
+    width: fit-content;
+  }
+  .scrolling_image-banner {
+    width: fit-content;
+  }
+  .our-services {
+    width: fit-content;
+    height: fit-content;
+  }
+  .netmatters-introview {
+    width: fit-content;
+  }
+  .footer {
+    width: fit-content;
+  }
+  .news-section {
+    width: fit-content;
+  }
+  .newsletter {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 912px) {
+  .banner {
+    width: 912px;
+  }
+  .bottom-bar {
+    width: 912px;
+  }
+  .scrolling_image-banner {
+    width: 912px;
+  }
+  .our-services {
+    width: 912px;
+    height: 912px;
+  }
+  .netmatters-introview {
+    width: 912px;
+  }
+  .footer {
+    width: 912px;
+  }
+  .news-section {
+    width: 912px;
+  }
+  .newsletter {
+    width: 912px;
+  }
+}
+
+@media (max-width: 412px) {
+  .banner {
+    width: fit-content;
+  }
+  .bottom-bar {
+    width: fit-content;
+  }
+  .scrolling_image-banner {
+    width: fit-content;
+  }
+  .our-services {
+    width: fit-content;
+    height: fit-content;
+  }
+  .netmatters-introview {
+    width: fit-content;
+  }
+  .footer {
+    width: fit-content;
+  }
+  .news-section {
+    width: fit-content;
+  }
+  .newsletter {
+    width: fit-content;
+  }
+}
+
 .button-support {
   background-color: #4387F6;
   color: #fff;
@@ -1265,118 +1349,6 @@ h2 {
   width: 23%;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  font-family: poppins;
-  position: static;
-  color: #fff;
-  text-decoration: none;
-  font-style: normal;
-  bottom: 0;
-  left: 0;
-  height: 21.5rem;
-  width: 100% -10px;
-  background-color: #333645;
-  color: #fff;
-  padding: 10px;
-}
-
-footer .follow-us-on {
-  font-weight: 400;
-  font-size: 1.025rem;
-}
-
-footer .footeraboutsec {
-  font-size: small;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  height: 180px;
-  width: 6%;
-}
-
-footer .footeraboutsec a {
-  color: #fff;
-  text-decoration: none;
-  font-style: normal;
-}
-
-footer .footeraboutsec a:hover {
-  text-decoration: underline;
-}
-
-footer .footeraboutsec h4 {
-  font-size: medium;
-  padding: 1rem 0 1rem 0;
-}
-
-footer .footerservicessec {
-  font-size: small;
-  margin-left: 2rem;
-  height: 180px;
-  width: 6%;
-  margin: 5px;
-}
-
-footer .footerservicessec a {
-  color: #fff;
-  text-decoration: none;
-  font-style: normal;
-}
-
-footer .footerservicessec a:hover {
-  text-decoration: underline;
-}
-
-footer .footerservicessec h4 {
-  font-size: medium;
-  padding: 1rem 0 1rem 0;
-}
-
-footer .footerindustriessec {
-  font-size: small;
-  margin-left: 2rem;
-  height: 180px;
-  width: 6%;
-}
-
-footer .footerindustriessec a {
-  color: #fff;
-  text-decoration: none;
-  font-style: normal;
-}
-
-footer .footerindustriessec a:hover {
-  text-decoration: underline;
-}
-
-footer .footerindustriessec h4 {
-  font-size: medium;
-  padding: 1rem 0 1rem 0;
-}
-
-footer .footerlocationssec {
-  font-size: small;
-  margin-left: 2rem;
-  height: 180px;
-  width: 6%;
-}
-
-footer .footerlocationssec a {
-  color: #fff;
-  text-decoration: none;
-  font-style: normal;
-}
-
-footer .footerlocationssec a:hover {
-  text-decoration: underline;
-}
-
-footer .footerlocationssec h4 {
-  font-size: medium;
-  padding: 1rem 0 1rem 0;
-}
-
 .news-section {
   display: flex;
   flex-wrap: wrap;
@@ -1673,4 +1645,116 @@ footer .footerlocationssec h4 {
 
 .newsletter .btn-nl-subscribe:hover {
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: poppins;
+  position: static;
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  bottom: 0;
+  left: 0;
+  height: 21.5rem;
+  width: 100% -10px;
+  background-color: #333645;
+  color: #fff;
+  padding: 10px;
+}
+
+footer .follow-us-on {
+  font-weight: 400;
+  font-size: 1.025rem;
+}
+
+footer .footeraboutsec {
+  font-size: small;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 180px;
+  width: 6%;
+}
+
+footer .footeraboutsec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footeraboutsec a:hover {
+  text-decoration: underline;
+}
+
+footer .footeraboutsec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .footerservicessec {
+  font-size: small;
+  margin-left: 2rem;
+  height: 180px;
+  width: 6%;
+  margin: 5px;
+}
+
+footer .footerservicessec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footerservicessec a:hover {
+  text-decoration: underline;
+}
+
+footer .footerservicessec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .footerindustriessec {
+  font-size: small;
+  margin-left: 2rem;
+  height: 180px;
+  width: 6%;
+}
+
+footer .footerindustriessec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footerindustriessec a:hover {
+  text-decoration: underline;
+}
+
+footer .footerindustriessec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .footerlocationssec {
+  font-size: small;
+  margin-left: 2rem;
+  height: 180px;
+  width: 6%;
+}
+
+footer .footerlocationssec a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .footerlocationssec a:hover {
+  text-decoration: underline;
+}
+
+footer .footerlocationssec h4 {
+  font-size: medium;
+  padding: 1rem 0 1rem 0;
 }
