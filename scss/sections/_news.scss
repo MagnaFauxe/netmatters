@@ -2,7 +2,7 @@
 
 
 .news-section {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -31,6 +31,7 @@
     margin-top: -2.5rem;
     margin-bottom: 2.5rem;
     justify-content: center;
+    width: 100%;
 }
 
 .posted-by {
@@ -85,7 +86,6 @@
     transition: transform 0.5s ease;
     &:hover {
         transform: translateY(-10px);
-        border: none;
     }
     .news-tab-left-header {
         font-size: medium;
@@ -114,7 +114,6 @@
     transition: transform 0.5s ease;
     &:hover {
         transform: translateY(-10px);
-        border: none;
     }
     .news-tab-center-header {
         font-size: medium;
@@ -148,7 +147,6 @@
     transition: transform 0.5s ease;
     &:hover {
         transform: translateY(-10px);
-        border: none;
     }
     .news-tab-left-header {
         font-size: medium;
