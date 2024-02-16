@@ -10,7 +10,8 @@ body {
     color: $text-color-dark;
     font-size: 1rem;
     background-color: $body-color;
-    margin-top: 1rem;
+    margin-top: -1rem;
+    margin-bottom: -2.5rem;
 }
 
 .top-banner-title-upper {
@@ -41,12 +42,21 @@ input {
 }
 
 .burger-menu {
-    background-color: $banner-drk-grey;
-    padding: 1px 13px 6px 13px;
-    border-radius: 4px;
+    display: flex;
+    background-color: $banner-grey;
+    color: $black;
+    font-weight: 600;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    width: 70px;
+    border-radius: 3px;
     font-size: 40px;
     cursor: pointer;
     margin-left: 10px;
+    &:hover {
+        background-color: modify-color($banner-grey, darken, 13%);
+    }
 }
 
 
