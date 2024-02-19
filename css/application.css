@@ -1311,13 +1311,52 @@ h2 {
   object-fit: cover;
 }
 
+.banner-content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-115%, -125%);
+  text-align: left;
+  z-index: 1;
+}
+
+.banner-text {
+  color: #fff;
+  display: block;
+  font-family: poppins;
+  font-size: 2rem;
+}
+
+.banner-text .banner-header {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.banner-text p {
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.btn-web-banner {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #714e90;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+}
+
 .service-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  width: 60%;
-  margin-left: 20%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .service-header .service-header-left, .service-header .service-header-right {
@@ -1441,6 +1480,8 @@ h2 {
 }
 
 .news-tab-img img {
+  display: flex;
+  align-self: center;
   width: 100%;
   height: auto;
 }
@@ -1454,7 +1495,7 @@ h2 {
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
   width: 14.5%;
-  height: 520px;
+  height: 559px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;
@@ -1485,7 +1526,7 @@ h2 {
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
   width: 14.5%;
-  height: 520px;
+  height: 535px;
   margin: 60px 20px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;
@@ -1521,7 +1562,7 @@ h2 {
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
   width: 14.5%;
-  height: 520px;
+  height: 565px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;

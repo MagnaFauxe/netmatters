@@ -99,3 +99,40 @@ h2 {
     height: 100%;
     object-fit: cover;
 }
+
+.banner-content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-115%, -125%); //horizontal, vertical
+    text-align: left;
+    z-index: 1;
+}
+
+.banner-text {
+    color: $text-color-light;
+    display: block;
+    font-family: poppins;
+    font-size: 2rem;
+    .banner-header {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    p {
+        font-size: 1.65rem;
+        font-weight: 600;
+    }
+}
+
+.btn-web-banner {
+    color: $text-color-light;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: modify-color($webdesign-color, darken, 13%);
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+}
