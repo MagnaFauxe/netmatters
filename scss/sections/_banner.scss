@@ -11,18 +11,21 @@ body {
     font-size: 1rem;
     background-color: $body-color;
     margin-top: -1rem;
-    margin-bottom: -2.5rem;
+    margin-bottom: -1rem;
 }
 
 .top-banner-title-upper {
+    font-family: poppins;
     font-size: x-small;
-    margin: 0px 0 0 0;
+    margin: 0 0 -3px 0;
     color: $text-color-light;
 }
 
 .top-banner-title-lower {
+    font-family: poppins;
     font-size: medium;
     margin: 0 0 10px 0;
+    padding-bottom: 3px;
     color: $text-color-light;
 }
 
@@ -140,8 +143,14 @@ h2 {
 }
 
 .submenu-container{
-    position:absolute;
+    z-index: 99;
+    position:fixed;
+    left: 0;
+    transform: translateX(-100px);
+    transform: translateY(-1rem);
     display:none;
+    background-color: tomato;
+    width: 100%;
 }
 .top-banner > div:hover{
     .submenu-container{
