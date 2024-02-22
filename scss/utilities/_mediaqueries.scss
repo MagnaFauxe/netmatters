@@ -28,33 +28,33 @@
     }
 }
 
-@media (max-width: 912px) {
-    .banner {
-        width: 912px;
-    }
-    .bottom-bar {
-        width: 912px;
-    }
-    .scrolling_image-banner {
-        width: 912px;
-    }
-    .our-services {
-        width: 912px;
-        height: 912px;
-    }
-    .netmatters-introview {
-        width: 912px;
-    }
-    .footer {
-        width: 912px;
-    }
-    .news-section {
-        width: 912px;
-    }
-    .newsletter {
-        width: 912px;
-    }
-}
+// @media (max-width: 912px) {
+//     .banner {
+//         width: 912px;
+//     }
+//     .bottom-bar {
+//         width: 912px;
+//     }
+//     .scrolling_image-banner {
+//         width: 912px;
+//     }
+//     .our-services {
+//         width: 912px;
+  
+//     }
+//     .netmatters-introview {
+//         width: 912px;
+//     }
+//     .footer {
+//         width: 912px;
+//     }
+//     .news-section {
+//         width: 912px;
+//     }
+//     .newsletter {
+//         width: 912px;
+//     }
+// }
 
 @media (max-width: 412px) {
     .banner {
@@ -83,3 +83,7 @@
         width: fit-content;
     }
 }
+
+@media (min-width: 992px){
+    display:flex;
+    }

@@ -10,8 +10,7 @@
     max-width: 1500px;
     margin: 0 auto;
 }
-
-.bespoke-software-tab {
+.tabs{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,8 +19,6 @@
     border: 1px solid $light-grey;
     border-radius: 15px;
     padding: 20px;
-    width: 340px;
-    height: 280px;
     margin: 60px 20px 0px 20px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s ease;
@@ -29,7 +26,12 @@
         transform: translateY(-10px);
         border: none;
     }
-    @include tab-hover-effect(translateY(10px), $bespoke-color, $bespoke-color, $body-color, $text-color-dark, $bespoke-color);
+}
+.tabs-bottom{
+    width: 100%;
+}
+.bespoke-software-tab {
+     @include tab-hover-effect(translateY(10px), $bespoke-color, $bespoke-color, $body-color, $text-color-dark, $bespoke-color);
 
     .bespoke-button {
         background-color: $bespoke-color;
@@ -60,23 +62,6 @@
 }
 
 .it-support-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $light-grey;
-    border-radius: 15px;
-    padding: 20px;
-    width: 340px;
-    height: 280px;
-    margin: 60px 20px 0px 20px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease;
-    &:hover {
-        transform: translateY(-10px);
-        border: none;
-    }
     @include tab-hover-effect(translateY(10px), $support-color, $support-color, $body-color, $text-color-dark, $support-color);
 
     .support-button {
@@ -108,19 +93,6 @@
 }
 
 .digital-marketing-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $light-grey;
-    border-radius: 15px;
-    padding: 20px;
-    width: 340px;
-    height: 280px;
-    margin: 60px 20px 0px 20px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease;
     &:hover {
         transform: translateY(-10px);
         border: none;
@@ -156,23 +128,6 @@
 }
 
 .telecoms-services-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $light-grey;
-    border-radius: 15px;
-    padding: 20px;
-    width: 228px;
-    height: 280px;
-    margin: 0px 20px 165px 20px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease;
-    &:hover {
-        transform: translateY(-10px);
-        border: none;
-    }
     @include tab-hover-effect(translateY(10px), $telecom-color, $telecom-color, $body-color, $text-color-dark, $telecom-color);
 
     .telecoms-button {
@@ -204,23 +159,6 @@
 }
 
 .webdesign-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $light-grey;
-    border-radius: 15px;
-    padding: 20px;
-    width: 228px;
-    height: 280px;
-    margin: 0px 20px 165px 20px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease;
-    &:hover {
-        transform: translateY(-10px);
-        border: none;
-    }
     @include tab-hover-effect(translateY(10px), $webdesign-color, $webdesign-color, $body-color, $text-color-dark, $telecom-color);
 
     .webdesign-button {
@@ -252,23 +190,6 @@
 }
 
 .cyber-security-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $light-grey;
-    border-radius: 15px;
-    padding: 20px;
-    width: 228px;
-    height: 280px;
-    margin: 0px 20px 165px 20px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease;
-    &:hover {
-        transform: translateY(-10px);
-        border: none;
-    }
     @include tab-hover-effect(translateY(10px), $security-color, $security-color, $body-color, $text-color-dark, $security-color);
 
     .cybersecurity-button {
@@ -300,23 +221,7 @@
 }
 
 .developer-training-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $light-grey;
-    border-radius: 15px;
-    padding: 20px;
-    width: 228px;
-    height: 280px;
-    margin: 0px 20px 165px 20px;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease;
-    &:hover {
-        transform: translateY(-10px);
-        border: none;
-    }
+ 
     @include tab-hover-effect(translateY(10px), $developer-color, $developer-color, $body-color, $text-color-dark, $developer-color);
 
     .developer-button {
@@ -360,4 +265,27 @@
 
 .icon-laptop, .icon-display1, .icon-bar-graph, .icon-phone_in_talk, .icon-code1, .icon-security, .icon-school {
     font-size: 2.25rem;
+}
+
+
+@media (min-width:772px){
+    .tabs-bottom{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+}
+
+@media (min-width: 992px){
+    .tabs-top{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ 
+}
+
+@media (min-width: 1260px){
+    .tabs-bottom{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

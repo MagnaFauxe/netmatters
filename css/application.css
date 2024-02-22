@@ -242,34 +242,6 @@ p {
   }
 }
 
-@media (max-width: 912px) {
-  .banner {
-    width: 912px;
-  }
-  .bottom-bar {
-    width: 912px;
-  }
-  .scrolling_image-banner {
-    width: 912px;
-  }
-  .our-services {
-    width: 912px;
-    height: 912px;
-  }
-  .netmatters-introview {
-    width: 912px;
-  }
-  .footer {
-    width: 912px;
-  }
-  .news-section {
-    width: 912px;
-  }
-  .newsletter {
-    width: 912px;
-  }
-}
-
 @media (max-width: 412px) {
   .banner {
     width: fit-content;
@@ -295,6 +267,36 @@ p {
   }
   .newsletter {
     width: fit-content;
+  }
+}
+
+@media (min-width: 992px) {
+  display: flex;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .container {
+    width: 1200px;
   }
 }
 
@@ -336,7 +338,6 @@ p {
   top: 100%;
   left: 0;
   width: 2000px;
-  height: 1000px;
   background-color: #c90798;
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -346,20 +347,24 @@ p {
 
 .top-banner {
   display: flex;
-  justify-content: center;
-  background-color: #333645;
-  height: 6.2rem;
-  margin-bottom: 0;
+  text-align: center;
+}
+
+.top-banner .button-bespoke-software-banner,
+.top-banner .button-it-support-banner,
+.top-banner .button-digital-marketing-banner,
+.top-banner .button-telecoms-services-banner,
+.top-banner .button-web-design-banner,
+.top-banner .button-cyber-security-banner,
+.top-banner .button-developer-course-banner {
+  cursor: pointer;
+  padding-top: 1rem;
+  border-style: none;
+  flex: 1;
 }
 
 .top-banner .button-bespoke-software-banner {
   color: #67809f;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-bespoke-software-banner:hover {
@@ -377,12 +382,6 @@ p {
 
 .top-banner .button-it-support-banner {
   color: #4183D7;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-it-support-banner:hover {
@@ -397,12 +396,6 @@ p {
 
 .top-banner .button-digital-marketing-banner {
   color: #2ECC71;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-digital-marketing-banner:hover {
@@ -417,12 +410,6 @@ p {
 
 .top-banner .button-telecoms-services-banner {
   color: #D64541;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-telecoms-services-banner:hover {
@@ -437,12 +424,6 @@ p {
 
 .top-banner .button-web-design-banner {
   color: #926FB1;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-web-design-banner:hover {
@@ -457,12 +438,6 @@ p {
 
 .top-banner .button-cyber-security-banner {
   color: #f62459;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-cyber-security-banner:hover {
@@ -477,12 +452,6 @@ p {
 
 .top-banner .button-developer-course-banner {
   color: #ce4125;
-  width: 6.5%;
-  height: 100%;
-  padding-top: 1rem;
-  cursor: pointer;
-  border-style: none;
-  background-color: #333645;
 }
 
 .top-banner .button-developer-course-banner:hover {
@@ -663,7 +632,7 @@ p {
   margin: 0 auto;
 }
 
-.bespoke-software-tab {
+.tabs {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -672,20 +641,25 @@ p {
   border: 1px solid #cecece;
   border-radius: 15px;
   padding: 20px;
-  width: 340px;
-  height: 280px;
   margin: 60px 20px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;
+}
+
+.tabs:hover {
+  transform: translateY(-10px);
+  border: none;
+}
+
+.tabs-bottom {
+  width: 100%;
+}
+
+.bespoke-software-tab {
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
   color: #333645;
-}
-
-.bespoke-software-tab:hover {
-  transform: translateY(-10px);
-  border: none;
 }
 
 .bespoke-software-tab .icon {
@@ -740,28 +714,10 @@ p {
 }
 
 .it-support-tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #cecece;
-  border-radius: 15px;
-  padding: 20px;
-  width: 340px;
-  height: 280px;
-  margin: 60px 20px 0px 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease;
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
   color: #333645;
-}
-
-.it-support-tab:hover {
-  transform: translateY(-10px);
-  border: none;
 }
 
 .it-support-tab .icon {
@@ -816,19 +772,6 @@ p {
 }
 
 .digital-marketing-tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #cecece;
-  border-radius: 15px;
-  padding: 20px;
-  width: 340px;
-  height: 280px;
-  margin: 60px 20px 0px 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease;
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
@@ -892,28 +835,10 @@ p {
 }
 
 .telecoms-services-tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #cecece;
-  border-radius: 15px;
-  padding: 20px;
-  width: 228px;
-  height: 280px;
-  margin: 0px 20px 165px 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease;
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
   color: #333645;
-}
-
-.telecoms-services-tab:hover {
-  transform: translateY(-10px);
-  border: none;
 }
 
 .telecoms-services-tab .icon {
@@ -968,28 +893,10 @@ p {
 }
 
 .webdesign-tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #cecece;
-  border-radius: 15px;
-  padding: 20px;
-  width: 228px;
-  height: 280px;
-  margin: 0px 20px 165px 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease;
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
   color: #333645;
-}
-
-.webdesign-tab:hover {
-  transform: translateY(-10px);
-  border: none;
 }
 
 .webdesign-tab .icon {
@@ -1044,28 +951,10 @@ p {
 }
 
 .cyber-security-tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #cecece;
-  border-radius: 15px;
-  padding: 20px;
-  width: 228px;
-  height: 280px;
-  margin: 0px 20px 165px 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease;
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
   color: #333645;
-}
-
-.cyber-security-tab:hover {
-  transform: translateY(-10px);
-  border: none;
 }
 
 .cyber-security-tab .icon {
@@ -1120,28 +1009,10 @@ p {
 }
 
 .developer-training-tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #cecece;
-  border-radius: 15px;
-  padding: 20px;
-  width: 228px;
-  height: 280px;
-  margin: 0px 20px 165px 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease;
   transition: translateY(10px) 0.5s;
   transform: translateY(10px);
   background-color: #fff;
   color: #333645;
-}
-
-.developer-training-tab:hover {
-  transform: translateY(-10px);
-  border: none;
 }
 
 .developer-training-tab .icon {
@@ -1208,6 +1079,26 @@ p {
 
 .icon-laptop, .icon-display1, .icon-bar-graph, .icon-phone_in_talk, .icon-code1, .icon-security, .icon-school {
   font-size: 2.25rem;
+}
+
+@media (min-width: 772px) {
+  .tabs-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .tabs-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1260px) {
+  .tabs-bottom {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 body {
@@ -1337,6 +1228,10 @@ h2 {
   font-weight: 600;
 }
 
+.topBanner {
+  background-color: #333645;
+}
+
 .btn-web-banner {
   color: #fff;
   font-size: 1.25rem;
@@ -1350,13 +1245,20 @@ h2 {
   padding: 1rem;
 }
 
+.submenu-container {
+  position: absolute;
+  display: none;
+}
+
+.top-banner > div:hover .submenu-container {
+  display: block;
+}
+
 .service-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  width: 50%;
-  margin-left: 25%;
 }
 
 .service-header .service-header-left, .service-header .service-header-right {
@@ -1373,10 +1275,9 @@ h2 {
 }
 
 .our-services {
-  height: 1000px;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   padding: 0;
   background-color: #fff;
 }
@@ -1405,26 +1306,20 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: fit-content;
-  width: fit-content;
   padding: 1rem 2rem 3rem 2rem;
   margin: 0;
   background-color: #333645;
-  height: 650px;
 }
 
-.introview-left, .introview-right {
-  width: 23%;
+@media (min-width: 992px) {
+  .introview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .news-section {
   display: block;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  height: 800px;
   width: 100%;
   background-color: #fff;
 }
@@ -1441,8 +1336,8 @@ h2 {
 }
 
 .news-tab-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
   margin-top: -2.5rem;
   margin-bottom: 2.5rem;
   justify-content: center;
@@ -1494,7 +1389,6 @@ h2 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  width: 14.5%;
   height: 559px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -1525,7 +1419,6 @@ h2 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  width: 14.5%;
   height: 535px;
   margin: 60px 20px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -1561,7 +1454,6 @@ h2 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  width: 14.5%;
   height: 565px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -1624,14 +1516,28 @@ h2 {
   filter: grayscale(0%);
 }
 
+@media (min-width: 768px) {
+  .news-tab-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .news-tab-right {
+    display: none;
+  }
+}
+
+@media (min-width: 1260px) {
+  .news-tab-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .news-tab-right {
+    display: flex;
+  }
+}
+
 .newsletter {
   font-family: poppins;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 25% 3rem 25%;
-  height: fit-content;
-  width: 50%;
   background-color: #dddddd;
 }
 
@@ -1643,14 +1549,13 @@ h2 {
 }
 
 .newsletter .input-container {
-  display: flex;
-  justify-content: space-between;
   margin: 0;
+  gap: 30px;
 }
 
 .newsletter .name-input, .newsletter .email-input {
   text-align: left;
-  width: 50%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -1665,6 +1570,7 @@ h2 {
 
 .newsletter input[type="text"],
 .newsletter input[type="email"] {
+  width: 100%;
   height: 0.5rem;
   border-radius: 2px;
   border: 1px solid #c4c4c4;
@@ -1714,6 +1620,18 @@ h2 {
   cursor: pointer;
 }
 
+@media (min-width: 992px) {
+  .newsletter {
+    display: flex;
+  }
+  .newsletter .name-input, .newsletter .email-input {
+    width: 100%;
+  }
+  .newsletter input {
+    box-sizing: border-box;
+  }
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -1741,7 +1659,6 @@ footer .footeraboutsec {
   margin-left: 2rem;
   margin-right: 2rem;
   height: 180px;
-  width: 6%;
 }
 
 footer .footeraboutsec a {
@@ -1763,7 +1680,6 @@ footer .footerservicessec {
   font-size: small;
   margin-left: 2rem;
   height: 180px;
-  width: 6%;
   margin: 5px;
 }
 
@@ -1786,7 +1702,6 @@ footer .footerindustriessec {
   font-size: small;
   margin-left: 2rem;
   height: 180px;
-  width: 6%;
 }
 
 footer .footerindustriessec a {
@@ -1808,7 +1723,6 @@ footer .footerlocationssec {
   font-size: small;
   margin-left: 2rem;
   height: 180px;
-  width: 6%;
 }
 
 footer .footerlocationssec a {

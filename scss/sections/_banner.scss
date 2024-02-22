@@ -123,7 +123,9 @@ h2 {
         font-weight: 600;
     }
 }
-
+.topBanner{
+    background-color:#333645;
+}
 .btn-web-banner {
     color: $text-color-light;
     font-size: 1.25rem;
@@ -135,4 +137,14 @@ h2 {
     width: fit-content;
     height: fit-content;
     padding: 1rem;
+}
+
+.submenu-container{
+    position:absolute;
+    display:none;
+}
+.top-banner > div:hover{
+    .submenu-container{
+        display:block;
+    }
 }

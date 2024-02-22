@@ -47,7 +47,7 @@
     top: 100%;
     left: 0;
     width: 2000px;
-    height: 1000px;
+  
     background-color: #c90798;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -60,19 +60,23 @@
 
 .top-banner {
     display: flex;
-    justify-content: center;
-    background-color: $banner-grey;
-    height: 6.2rem;
-    margin-bottom: 0;
-
+    text-align:center;
+    .button-bespoke-software-banner,
+    .button-it-support-banner,
+    .button-digital-marketing-banner,
+    .button-telecoms-services-banner,
+    .button-web-design-banner,
+    .button-cyber-security-banner,
+    .button-developer-course-banner
+    {
+        cursor: pointer;
+        padding-top: 1rem;
+        border-style: none;
+        flex: 1;
+    }
     .button-bespoke-software-banner {
         color: $bespoke-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
+     
         &:hover{
             .dropdown-bespoke{
                 visibility: visible; 
@@ -87,12 +91,6 @@
 
     .button-it-support-banner {
         color: $support-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
         &:hover{
             visibility: visible;
             background-color: $support-color;
@@ -105,12 +103,6 @@
 
     .button-digital-marketing-banner {
         color: $marketing-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
         &:hover{
             visibility: visible;
             background-color: $marketing-color;
@@ -123,12 +115,6 @@
 
     .button-telecoms-services-banner {
         color: $telecom-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
         &:hover{
             visibility: visible;
             background-color: $telecom-color;
@@ -141,12 +127,6 @@
 
     .button-web-design-banner {
         color: $webdesign-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
         &:hover{
             visibility: visible;
             background-color: $webdesign-color;
@@ -159,12 +139,6 @@
 
     .button-cyber-security-banner {
         color: $security-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
         &:hover{
             visibility: visible;
             background-color: $security-color;
@@ -177,12 +151,6 @@
 
     .button-developer-course-banner {
         color: $developer-color;
-        width: 6.5%;
-        height: 100%;
-        padding-top: 1rem;
-        cursor: pointer;
-        border-style: none;
-        background-color: $banner-grey;
         &:hover{
             visibility: visible;
             background-color: $developer-color;

@@ -38,7 +38,7 @@
         
 
         <header class="banner">
-            <div>
+            <div class="container">
                 <h1>
                     <img class="nm-logo-main" src="img/f-logo.webp" alt="Netmatters logo">
                     <button class="button-support"><span class="icon-mouse"></span> Support</button>
@@ -51,9 +51,10 @@
 
             <!------------- Submenu Section ------------->
 
-        <section>
-            <h2 class="top-banner">
-                <button class="button-bespoke-software-banner">
+        <div class="topBanner">
+            <div class="banner-container container">
+                <div class="top-banner">
+                <div class="button-bespoke-software-banner">
                     <span class="icon-laptop"></span>
                     <h5 class="top-banner-title-upper">BESPOKE</h5>
                     <h4 class="top-banner-title-lower">SOFTWARE</h4>
@@ -74,9 +75,9 @@
                             <li class="submenu-item">Reporting Hub</li>
                         </ul>
                     </div>
-                </button>
+                </div>
 
-                <button class="button-it-support-banner">
+                <div class="button-it-support-banner">
                     <span class="icon-display1"></span>
                     <h5 class="top-banner-title-upper">IT</h5>
                     <h4 class="top-banner-title-lower">SUPPORT</h4>
@@ -91,9 +92,9 @@
                             <li class="submenu-item">Data Backup & Disaster Recovery</li>
                         </ul>
                     </div>
-                </button>
+                </div>
 
-                <button class="button-digital-marketing-banner">
+                <div class="button-digital-marketing-banner">
                     <span class="icon-bar-graph"></span>
                     <h5 class="top-banner-title-upper">DIGITAL</h5>
                     <h4 class="top-banner-title-lower">MARKETING</h4>
@@ -108,9 +109,9 @@
                             <li class="submenu-item">Content Marketing</li>
                         </ul>
                     </div>
-                </button>
+                </div>
 
-                <button class="button-telecoms-services-banner">
+                <div class="button-telecoms-services-banner">
                     <span class="icon-phone_in_talk"></span>
                     <h5 class="top-banner-title-upper">TELECOMS</h5>
                     <h4 class="top-banner-title-lower">SERVICES</h4>
@@ -125,9 +126,9 @@
                             <li class="submenu-item">3CX Systems</li>
                         </ul>
                     </div>
-                </button>
+                </div>
 
-                <button class="button-web-design-banner">
+                <div class="button-web-design-banner">
                     <span class="icon-code1"></span>
                     <h5 class="top-banner-title-upper">WEB</h5>
                     <h4 class="top-banner-title-lower">DESIGN</h4>
@@ -142,9 +143,9 @@
                             <li class="submenu-item">Web Hosting</li>
                         </ul>
                     </div>
-                </button>
+                </div>
 
-                <button class="button-cyber-security-banner">
+                <div class="button-cyber-security-banner">
                     <span class="icon-security"></span>
                     <h5 class="top-banner-title-upper">CYBER</h5>
                     <h4 class="top-banner-title-lower">SECURITY</h4>
@@ -159,9 +160,9 @@
                             <li class="submenu-item">Hacking Prevention</li>
                         </ul>
                     </div>
-                </button>
+                </div>
 
-                <button class="button-developer-course-banner">
+                <span class="button-developer-course-banner">
                     <span class="icon-school"></span>
                     <h5 class="top-banner-title-upper">DEVELOPER</h5>
                     <h4 class="top-banner-title-lower">COURSE</h4>
@@ -175,8 +176,9 @@
                         </ul>
                     </div>
                 </button>
-            </h2>
-        </section>
+            </div>
+            </div>
+        </div>
 
             <!-- Banner Image -->
 
@@ -200,81 +202,86 @@
 
 
     <!----------------------------- OUR SERVICES SECTION ------------------------------->
+    <div class="our-services">
+            <div class="container">
+            <div class="service-header">
+                <h1 class="service-header-left">Our Services</h1>
+                <h2 class="service-header-right">View Our Work <span class="icon-arrow_forward"></span></h2>
+            </div>
+                    
+            <section class="our-services">
 
-        <div class="service-header">
-            <h1 class="service-header-left">Our Services</h1>
-            <h2 class="service-header-right">View Our Work <span class="icon-arrow_forward"></span></h2>
-        </div>
                 
-        <section class="our-services">
-
-            
-            <!-- CARDS/TABS -->
-
-            <div class="bespoke-software-tab">
-                <div class="bespoke-circle">
-                    <span class="icon-laptop"></span>
+                <!-- CARDS/TABS -->
+            <div class="tabs-top">
+                <div class="bespoke-software-tab tabs tab-top">
+                    <div class="bespoke-circle">
+                        <span class="icon-laptop"></span>
+                    </div>
+                    <h4>Bespoke Software</h4>
+                    <p>Bespoke software solutions for all your business needs including integrations and reporting.</p>
+                    <button class="bespoke-button">READ MORE</button>
                 </div>
-                <h4>Bespoke Software</h4>
-                <p>Bespoke software solutions for all your business needs including integrations and reporting.</p>
-                <button class="bespoke-button">READ MORE</button>
-            </div>
 
-            <div class="it-support-tab">
-                <div class="support-circle">
-                    <span class="icon-display1"></span>
+                <div class="it-support-tab tabs tab-top">
+                    <div class="support-circle">
+                        <span class="icon-display1"></span>
+                    </div>
+                    <h4>IT Support</h4>
+                    <p>Fully managed IT support and consultancy packages tailored to meet your exact business needs.</p>
+                    <button class="support-button">READ MORE</button>
                 </div>
-                <h4>IT Support</h4>
-                <p>Fully managed IT support and consultancy packages tailored to meet your exact business needs.</p>
-                <button class="support-button">READ MORE</button>
-            </div>
 
-            <div class="digital-marketing-tab">
-                <div class="marketing-circle">
-                    <span class="icon-bar-graph"></span>
+                <div class="digital-marketing-tab tabs tab-top">
+                    <div class="marketing-circle">
+                        <span class="icon-bar-graph"></span>
+                    </div>
+                    <h4>Digital Marketing</h4>
+                    <p>Driven brand awareness & ROI through creative digital marketing campaigns.</p>
+                    <button class="marketing-button">READ MORE</button>
                 </div>
-                <h4>Digital Marketing</h4>
-                <p>Driven brand awareness & ROI through creative digital marketing campaigns.</p>
-                <button class="marketing-button">READ MORE</button>
             </div>
+            <div class="tabs-bottom">
+                <div class="telecoms-services-tab tabs tab-bottom">
+                    <div class="telecoms-circle">
+                        <span class="icon-phone_in_talk"></span>
+                    </div>
+                    <h4>Telecoms Services</h4>
+                    <p>Business telephony solutions including mobile & connectivity solutions.</p>
+                    <button class="telecoms-button">READ MORE</button>
+                </div>
 
-            <div class="telecoms-services-tab">
-                <div class="telecoms-circle">
-                    <span class="icon-phone_in_talk"></span>
+                <div class="webdesign-tab tabs tab-bottom">
+                    <div class="webdesign-circle">
+                        <span class="icon-code1"></span>
+                    </div>
+                    <h4>Web Design</h4>
+                    <p>User-centric design for businesses looking to make a lasting impression.</p>
+                    <button class="webdesign-button">READ MORE</button>
                 </div>
-                <h4>Telecoms Services</h4>
-                <p>Business telephony solutions including mobile & connectivity solutions.</p>
-                <button class="telecoms-button">READ MORE</button>
-            </div>
 
-            <div class="webdesign-tab">
-                <div class="webdesign-circle">
-                    <span class="icon-code1"></span>
+                <div class="cyber-security-tab tabs tab-bottom">
+                    <div class="security-circle">
+                        <span class="icon-security"></span>
+                    </div>
+                    <h4>Cyber Security</h4>
+                    <p>Prevention, testing, consultancy & breach management services.</p>
+                    <button class="cybersecurity-button">READ MORE</button>
                 </div>
-                <h4>Web Design</h4>
-                <p>User-centric design for businesses looking to make a lasting impression.</p>
-                <button class="webdesign-button">READ MORE</button>
-            </div>
 
-            <div class="cyber-security-tab">
-                <div class="security-circle">
-                    <span class="icon-security"></span>
+                <div class="developer-training-tab tabs tab-bottom">
+                    <div class="developer-circle">
+                        <span class="icon-school"></span>
+                    </div>
+                    <h4>Developer Training</h4>
+                    <p>Web design & software training courses designed to secure a job in tech.</p>
+                    <button class="developer-button">READ MORE</button>
                 </div>
-                <h4>Cyber Security</h4>
-                <p>Prevention, testing, consultancy & breach management services.</p>
-                <button class="cybersecurity-button">READ MORE</button>
             </div>
-
-            <div class="developer-training-tab">
-                <div class="developer-circle">
-                    <span class="icon-school"></span>
-                </div>
-                <h4>Developer Training</h4>
-                <p>Web design & software training courses designed to secure a job in tech.</p>
-                <button class="developer-button">READ MORE</button>
-            </div>
-            
-        </section>
+            </section>
+        </div>
+    </div>
+    <!-- partners -->
         <section>
             <div class="partnerscroll-services">
                 <img src="img/google-partner.webp" alt="">
@@ -293,6 +300,7 @@
     <!-------------------------------- Introview Section --------------------------------->
 
             <div class="netmatters-introview">
+                <div class="container introview-grid">
                 <!-- Leftside -->
                 <div class="introview-left">
                 <h2>Welcome To Netmatters</h2>
@@ -317,14 +325,14 @@
                 <button class="btn-green">TRUSTPILOT REVIEWS <span class="icon-arrow_forward"></span></button>
             </div>
         </section>        
-                    
+    </div>
 
 
 
         <!------------------------ News Section ------------------------->
 
                     <div class="news-section">
-                        <div>
+                        <div class="container">
                         <h2 class="news-header">Latest News</h2>         
         <section class="news-tab-container">
 
@@ -377,7 +385,7 @@
             </div>
 
         </section>
-            
+        </div>     
         <div class="partnerscroll-news">
             <img src="img/black_swan_logo.webp" alt="Black Swan">
             <img src="img/xupes_logo.webp" alt="Xupes">
@@ -398,18 +406,20 @@
 
 
                     <!-------------------------------- Newsletter and Email --------------------------------->
-                    
+         
+        </div>          
         <section class="newsletter">
+            <div class="container">
             <h1 class="nl-header">Email newsletter Sign-Up</h1>
 
             <div class="input-container">
                 <div class="name-input">
                     <h4 id="nl-input-title">Your Name<span class="nl-title-asterisk">*</span></h4>
-                    <input type="text" style="width: 31rem;">
+                    <input type="text" >
                 </div>
                 <div class="email-input">
                     <h4 id="nl-input-title">Your Email<span class="nl-title-asterisk">*</span></h4>
-                    <input type="email" style="width: 31rem;">
+                    <input type="email" >
                 </div>
             </div>
 
@@ -420,7 +430,7 @@
             
             <button class="btn-nl-subscribe">SUBSCRIBE</button>
         </section>
-
+    </div>
 
                     <!--------------------------------------- Footer ---------------------------------------->
         <footer>

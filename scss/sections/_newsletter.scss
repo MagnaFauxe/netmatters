@@ -2,12 +2,9 @@
 
 .newsletter {
     font-family: poppins;
-    display: flex;
+   
     flex-direction: column;
     justify-content: center;
-    padding: 1rem 25% 3rem 25%;
-    height: fit-content;
-    width: 50%;
     background-color: $banner-lgt-grey;
 
     .nl-header {
@@ -18,14 +15,13 @@
     }
 
     .input-container {
-        display: flex;
-        justify-content: space-between;
         margin: 0;
+        gap: 30px;
     }
 
     .name-input, .email-input {
         text-align: left;
-        width: 50%;
+        width: 100%;
         margin-bottom: 1rem;
     }
 
@@ -40,6 +36,7 @@
 
     input[type="text"],
     input[type="email"] {
+        width:100%;
         height: 0.5rem;
         border-radius: 2px;
         border: 1px solid modify-color($alto, darken, 10%);
@@ -94,3 +91,14 @@ input[type="checkbox"]:checked::before {
     }
 }
 
+@media (min-width:992px){
+    .newsletter{
+        display:flex;
+        .name-input, .email-input{
+            width:100%;
+        }
+    input {
+        box-sizing: border-box;
+    }
+    }
+}
