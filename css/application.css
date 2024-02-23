@@ -1273,17 +1273,85 @@ h2 {
 
 .submenu-container {
   z-index: 99;
-  position: fixed;
-  left: 0;
-  transform: translateX(-100px);
-  transform: translateY(-1rem);
-  display: none;
-  background-color: tomato;
   width: 100%;
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
+.submenu-container .submenu-content {
+  align-items: center;
+  transform: translateX(43%);
+  width: 50%;
+  text-align: center;
+  padding: 4rem;
+  column-count: 3;
+  column-gap: -20rem;
+  column-width: 20%;
+}
+
+.submenu-container .submenu-header {
+  position: absolute;
+  z-index: 52;
+  margin-top: -3rem;
+  text-align: left;
+  color: #fff;
+  font-weight: 500;
+  width: 80%;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+}
+
+.submenu-container ul {
+  padding-top: -20px;
+}
+
+.submenu-container ul .icon-school {
+  font-size: 1.25rem;
+}
+
+.submenu-container .submenu-item {
+  list-style: none;
+  font-family: poppins;
+  font-size: 1.25rem !important;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.submenu-container .submenu-item:hover {
+  text-decoration: underline;
 }
 
 .top-banner > div:hover .submenu-container {
   display: block;
+}
+
+.submenu-bespoke .submenu-container {
+  background-color: #526781;
+}
+
+.submenu-support .submenu-container {
+  background-color: #286abd;
+}
+
+.submenu-marketing .submenu-container {
+  background-color: #25a25a;
+}
+
+.submenu-telecoms .submenu-container {
+  background-color: #bc2c28;
+}
+
+.submenu-webdesign .submenu-container {
+  background-color: #79539a;
+}
+
+.submenu-security .submenu-container {
+  background-color: #de093f;
+}
+
+.submenu-developer .submenu-container {
+  background-color: #a3331d;
 }
 
 .service-header {
@@ -1423,7 +1491,7 @@ h2 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  height: 559px;
+  height: 554px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;
@@ -1453,7 +1521,7 @@ h2 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  height: 535px;
+  height: 526px;
   margin: 60px 20px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;
@@ -1488,7 +1556,7 @@ h2 {
   text-align: left;
   border: 1px solid #cecece;
   border-radius: 0 0 5px 5px;
-  height: 565px;
+  height: 560px;
   margin: 60px 10px 0px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease;

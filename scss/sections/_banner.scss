@@ -144,16 +144,100 @@ h2 {
 
 .submenu-container{
     z-index: 99;
-    position:fixed;
-    left: 0;
-    transform: translateX(-100px);
-    transform: translateY(-1rem);
-    display:none;
-    background-color: tomato;
     width: 100%;
+    position:absolute;
+    left: 0;
+    display: none;   
+
+    .submenu-content {
+        //left: 22.5%;
+        align-items: center;
+        //left: 50%;
+        transform: translateX(43%);
+        width: 50%;
+        text-align: center;
+        padding: 4rem;
+        column-count: 3;
+        column-gap: -20rem;
+        column-width: 20%;
+    }
+
+    .submenu-header{
+        position: absolute;
+        z-index: 52;
+        margin-top: -3rem;
+        text-align: left;
+        color: $text-color-light;
+        font-weight: 500;
+        width: 80%;
+        font-size: 2.25rem;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        padding-top: -20px;
+        .icon-school {
+            font-size: 1.25rem;
+        }
+    }
+
+    .submenu-item {
+        list-style: none;
+        font-family: poppins;
+        font-size: 1.25rem !important;
+        padding-top: 20px;
+        text-align: left;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
+
+
 .top-banner > div:hover{
     .submenu-container{
         display:block;
+    }
+}
+
+.submenu-bespoke {
+    .submenu-container {
+    background-color: modify-color($bespoke-color, darken, 10%);
+    }
+}
+
+.submenu-support {
+    .submenu-container {
+    background-color: modify-color($support-color, darken, 10%);
+    }
+}
+
+.submenu-marketing {
+    .submenu-container {
+    background-color: modify-color($marketing-color, darken, 10%);
+    }
+}
+
+.submenu-telecoms {
+    .submenu-container {
+    background-color: modify-color($telecom-color, darken, 10%);
+    }
+}
+
+.submenu-webdesign {
+    .submenu-container {
+    background-color: modify-color($webdesign-color, darken, 10%);
+    }
+}
+
+.submenu-security {
+    .submenu-container {
+    background-color: modify-color($security-color, darken, 10%);
+    }
+}
+
+.submenu-developer {
+    .submenu-container {
+    background-color: modify-color($developer-color, darken, 10%);
     }
 }
